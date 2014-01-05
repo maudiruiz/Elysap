@@ -6251,3 +6251,186 @@ I, [2014-01-05T06:51:50.838841 #3379]  INFO -- : Started GET "/" for 201.141.110
 I, [2014-01-05T06:51:50.842375 #3379]  INFO -- : Processing by DisplayController#index as HTML
 I, [2014-01-05T06:51:50.845706 #3379]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.2ms)
 I, [2014-01-05T06:51:50.846920 #3379]  INFO -- : Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:53:09.731683 #3382]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 06:53:09 +0000
+I, [2014-01-05T06:53:09.735341 #3382]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T06:53:09.743674 #3382]  INFO -- :   Rendered display/index.html.erb within layouts/application (2.9ms)
+I, [2014-01-05T06:53:09.746512 #3382]  INFO -- : Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:53:12.160103 #3379]  INFO -- : Started GET "/users/sign_in" for 201.141.110.1 at 2014-01-05 06:53:12 +0000
+I, [2014-01-05T06:53:12.163938 #3379]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-01-05T06:53:12.186245 #3379]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/shared/_links.erb (1.7ms)
+I, [2014-01-05T06:53:12.186538 #3379]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/sessions/new.html.erb within layouts/application (13.0ms)
+I, [2014-01-05T06:53:12.188191 #3379]  INFO -- : Completed 200 OK in 24ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:53:14.729687 #3382]  INFO -- : Started GET "/users/sign_up" for 201.141.110.1 at 2014-01-05 06:53:14 +0000
+I, [2014-01-05T06:53:14.733689 #3382]  INFO -- : Processing by Devise::RegistrationsController#new as HTML
+I, [2014-01-05T06:53:14.759350 #3382]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/shared/_links.erb (2.6ms)
+I, [2014-01-05T06:53:14.759660 #3382]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (19.8ms)
+I, [2014-01-05T06:53:14.761258 #3382]  INFO -- : Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:57:43.187571 #3419]  INFO -- : Migrating to AddColumnsToUsers (20140105065728)
+I, [2014-01-05T07:05:03.135845 #3491]  INFO -- : Migrating to AddGenderToUsers (20140105070451)
+I, [2014-01-05T07:18:32.771109 #3379]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:18:32 +0000
+I, [2014-01-05T07:18:32.773727 #3379]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:18:32.777269 #3379]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.4ms)
+I, [2014-01-05T07:18:32.778904 #3379]  INFO -- : Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:20:16.326315 #3616]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:20:16 +0000
+I, [2014-01-05T07:20:16.349540 #3616]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:20:16.413238 #3616]  INFO -- :   Rendered display/index.html.erb within layouts/application (21.5ms)
+I, [2014-01-05T07:20:16.416242 #3616]  INFO -- : Completed 200 OK in 66ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:20:19.753857 #3613]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:20:19 +0000
+I, [2014-01-05T07:20:27.152442 #3616]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:20:27 +0000
+I, [2014-01-05T07:20:27.157044 #3616]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:20:27.161369 #3616]  INFO -- :   Rendered display/index.html.erb within layouts/application (2.0ms)
+I, [2014-01-05T07:20:27.162876 #3616]  INFO -- : Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:21:15.368967 #3613]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:21:15 +0000
+I, [2014-01-05T07:21:15.380113 #3613]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:21:15.413259 #3613]  INFO -- :   Rendered display/index.html.erb within layouts/application (27.1ms)
+I, [2014-01-05T07:21:15.416633 #3613]  INFO -- : Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:21:16.810696 #3616]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:21:16 +0000
+I, [2014-01-05T07:21:17.228103 #3613]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQB7joTTl4ls4HbSyl-PPZolBmLjP-JM7ZrDScpPh1E4gifZ_nHqZDsPVnBDtkEMbQUHC6zRFBhW_mIWyCJ5YW50rhV1voE9dAPmOGcGSgXMRRo6uEK9WdeSu4w_524xx4iQp88nyv10v5M-qSQknkrvDY9bTmz171OH4zvoiHhnV3C2brmZCIfHfmFJFm-MyAir0b7nUpzeLGjC_NqylNVBg7KJ20MCg1JzNthqClJe_3hfNSe-9WPFZ4ALsAa3nn3HywVAl0DMmhuPP8gX-myTdSI1mKN4bShcjRTCC2kW8op0rJkpqI821DVC1VyuJRs&state=9c094bb63ca927e3471729b4f94d0f3e3aba7efa20db4d15" for 201.141.110.1 at 2014-01-05 07:21:17 +0000
+F, [2014-01-05T07:21:17.749084 #3613] FATAL -- : 
+ActionController::RoutingError (uninitialized constant Users):
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/mapper.rb:44:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:401:in `call_app!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:363:in `callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4308606763539519492__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-05T07:21:48.958159 #3616]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQB7joTTl4ls4HbSyl-PPZolBmLjP-JM7ZrDScpPh1E4gifZ_nHqZDsPVnBDtkEMbQUHC6zRFBhW_mIWyCJ5YW50rhV1voE9dAPmOGcGSgXMRRo6uEK9WdeSu4w_524xx4iQp88nyv10v5M-qSQknkrvDY9bTmz171OH4zvoiHhnV3C2brmZCIfHfmFJFm-MyAir0b7nUpzeLGjC_NqylNVBg7KJ20MCg1JzNthqClJe_3hfNSe-9WPFZ4ALsAa3nn3HywVAl0DMmhuPP8gX-myTdSI1mKN4bShcjRTCC2kW8op0rJkpqI821DVC1VyuJRs&state=9c094bb63ca927e3471729b4f94d0f3e3aba7efa20db4d15" for 201.141.110.1 at 2014-01-05 07:21:48 +0000
+F, [2014-01-05T07:21:49.218099 #3616] FATAL -- : 
+NameError (uninitialized constant Users):
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `constantize'
+  devise (3.2.2) lib/devise/omniauth.rb:19:in `block in <top (required)>'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:465:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:465:in `fail!'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:79:in `rescue in callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:67:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4308606763539519492__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-05T07:36:57.498886 #3973]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:36:57 +0000
+I, [2014-01-05T07:36:57.517615 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:36:57.589107 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (29.8ms)
+I, [2014-01-05T07:36:57.592187 #3973]  INFO -- : Completed 200 OK in 74ms (Views: 33.9ms | ActiveRecord: 1.7ms)
+I, [2014-01-05T07:37:00.831169 #3970]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:37:00 +0000
+I, [2014-01-05T07:37:14.484799 #3973]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:37:14 +0000
+I, [2014-01-05T07:37:14.489256 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:37:14.493597 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.9ms)
+I, [2014-01-05T07:37:14.495251 #3973]  INFO -- : Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:37:16.195509 #3970]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:37:16 +0000
+I, [2014-01-05T07:37:16.639803 #3973]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQCBtgEJgLjIyaJ0g463AB5UlhibbOsz5eVH4sFXkP-Ec9xiKIKrHviNiW9FrG07gmaEk4kxNQhpnrOlHKjTxggJ8lrHC9R5kAajXga7ven_8VipsOrkwsKJKAn09BmJUgbxGY5SVszV2atW_Yhkzk8qiRgrRiBzjPjFpkjK0VoekIswIf6-lwDjPi_zMvy5IJ4pdwMYszO2N-_CboPkauX8hCbaI9a_w7uf4nF-epr56a3mVJ1xyF21RlGXr0MV-psr4r3Cv6QnFHPKQqFGlSizYvGX5MxPoWOhnfAMFi9fIzBNwlN7XAahBf6-v19T6g0&state=71f2ee270dd06770329b5eac82c321130bc7c8761a974145" for 201.141.110.1 at 2014-01-05 07:37:16 +0000
+I, [2014-01-05T07:37:17.157565 #3973]  INFO -- : Processing by Users::OmniauthCallbacksController#facebook as HTML
+I, [2014-01-05T07:37:17.157800 #3973]  INFO -- :   Parameters: {"code"=>"AQCBtgEJgLjIyaJ0g463AB5UlhibbOsz5eVH4sFXkP-Ec9xiKIKrHviNiW9FrG07gmaEk4kxNQhpnrOlHKjTxggJ8lrHC9R5kAajXga7ven_8VipsOrkwsKJKAn09BmJUgbxGY5SVszV2atW_Yhkzk8qiRgrRiBzjPjFpkjK0VoekIswIf6-lwDjPi_zMvy5IJ4pdwMYszO2N-_CboPkauX8hCbaI9a_w7uf4nF-epr56a3mVJ1xyF21RlGXr0MV-psr4r3Cv6QnFHPKQqFGlSizYvGX5MxPoWOhnfAMFi9fIzBNwlN7XAahBf6-v19T6g0", "state"=>"71f2ee270dd06770329b5eac82c321130bc7c8761a974145"}
+I, [2014-01-05T07:37:17.163886 #3973]  INFO -- : #<OmniAuth::AuthHash credentials=#<OmniAuth::AuthHash expires=true expires_at=1394090477 token="CAAJHNAoZC16EBALF19DIOqbsr8SMDNmiz6YxWLBDbt0bYybc3s2ZAiAJQPWZAgdBHwNjEV9ZCmeU3Y6650pdnQGZALl0ZCpxTUZC43GAESnYZBZCX9Om8143aKVcfKjX9iIdpEVfSyeQsaXKRm1rDtpqliD7kQf9w8elje4xmBsAS9hoGU2Fu8uIifgZBBydraL9kZD"> extra=#<OmniAuth::AuthHash raw_info=#<OmniAuth::AuthHash bio="LUST" birthday="10/08/1992" education=[#<OmniAuth::AuthHash school=#<OmniAuth::AuthHash id="115167268499095" name="Facultad de Ingenieria, UNAM"> type="College">] email="maudiruiz@hotmail.com" favorite_athletes=[#<OmniAuth::AuthHash id="534297216587203" name="Ponce De León Expediciones">] first_name="Mau" gender="male" hometown=#<OmniAuth::AuthHash id="114897945188014" name="Mexico City, Mexico"> id="698860797" last_name="Ruiz" link="https://www.facebook.com/mau.ruiz.9" locale="es_LA" location=#<OmniAuth::AuthHash id="114897945188014" name="Mexico City, Mexico"> name="Mau Ruiz" timezone=-6 updated_time="2014-01-03T21:11:50+0000" username="mau.ruiz.9" verified=true>> info=#<OmniAuth::AuthHash::InfoHash description="LUST" email="maudiruiz@hotmail.com" first_name="Mau" image="http://graph.facebook.com/698860797/picture?type=square" last_name="Ruiz" location="Mexico City, Mexico" name="Mau Ruiz" nickname="mau.ruiz.9" urls=#<OmniAuth::AuthHash Facebook="https://www.facebook.com/mau.ruiz.9"> verified=true> provider="facebook" uid="698860797">
+E, [2014-01-05T07:37:17.433020 #3973] ERROR -- : Binary data inserted for `string` type on column `encrypted_password`
+E, [2014-01-05T07:37:17.474801 #3973] ERROR -- : Binary data inserted for `string` type on column `last_sign_in_ip`
+E, [2014-01-05T07:37:17.475123 #3973] ERROR -- : Binary data inserted for `string` type on column `current_sign_in_ip`
+I, [2014-01-05T07:37:17.484892 #3973]  INFO -- : Redirected to http://162.243.211.84/
+I, [2014-01-05T07:37:17.501523 #3973]  INFO -- : Completed 302 Found in 343ms (ActiveRecord: 44.6ms)
+I, [2014-01-05T07:37:17.712154 #3970]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:37:17 +0000
+I, [2014-01-05T07:37:17.725992 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:37:17.782161 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (50.0ms)
+I, [2014-01-05T07:37:17.785169 #3970]  INFO -- : Completed 200 OK in 59ms (Views: 54.0ms | ActiveRecord: 2.5ms)
