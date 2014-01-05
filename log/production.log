@@ -4251,3 +4251,11 @@ I, [2014-01-05T06:01:19.979501 #769]  INFO -- : Processing by HomeController#ind
 I, [2014-01-05T06:01:20.107064 #769]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.4ms)
 I, [2014-01-05T06:01:20.114944 #769]  INFO -- : Completed 200 OK in 135ms (Views: 26.1ms | ActiveRecord: 0.0ms)
 I, [2014-01-05T06:01:21.883676 #769]  INFO -- : Started GET "/assets/rails.png" for 201.141.110.1 at 2014-01-05 06:01:21 +0000
+I, [2014-01-05T06:10:34.672918 #772]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 06:10:34 +0000
+I, [2014-01-05T06:10:34.866116 #772]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-01-05T06:10:34.913814 #772]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.2ms)
+I, [2014-01-05T06:10:34.916238 #772]  INFO -- : Completed 200 OK in 50ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:23:52.639002 #2993]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 06:23:52 +0000
+I, [2014-01-05T06:23:52.850528 #2993]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T06:23:52.906044 #2993]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.0ms)
+I, [2014-01-05T06:23:52.909287 #2993]  INFO -- : Completed 200 OK in 58ms (Views: 8.1ms | ActiveRecord: 0.0ms)
