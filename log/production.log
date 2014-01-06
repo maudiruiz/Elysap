@@ -6251,3 +6251,749 @@ I, [2014-01-05T06:51:50.838841 #3379]  INFO -- : Started GET "/" for 201.141.110
 I, [2014-01-05T06:51:50.842375 #3379]  INFO -- : Processing by DisplayController#index as HTML
 I, [2014-01-05T06:51:50.845706 #3379]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.2ms)
 I, [2014-01-05T06:51:50.846920 #3379]  INFO -- : Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:53:09.731683 #3382]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 06:53:09 +0000
+I, [2014-01-05T06:53:09.735341 #3382]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T06:53:09.743674 #3382]  INFO -- :   Rendered display/index.html.erb within layouts/application (2.9ms)
+I, [2014-01-05T06:53:09.746512 #3382]  INFO -- : Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:53:12.160103 #3379]  INFO -- : Started GET "/users/sign_in" for 201.141.110.1 at 2014-01-05 06:53:12 +0000
+I, [2014-01-05T06:53:12.163938 #3379]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-01-05T06:53:12.186245 #3379]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/shared/_links.erb (1.7ms)
+I, [2014-01-05T06:53:12.186538 #3379]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/sessions/new.html.erb within layouts/application (13.0ms)
+I, [2014-01-05T06:53:12.188191 #3379]  INFO -- : Completed 200 OK in 24ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:53:14.729687 #3382]  INFO -- : Started GET "/users/sign_up" for 201.141.110.1 at 2014-01-05 06:53:14 +0000
+I, [2014-01-05T06:53:14.733689 #3382]  INFO -- : Processing by Devise::RegistrationsController#new as HTML
+I, [2014-01-05T06:53:14.759350 #3382]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/shared/_links.erb (2.6ms)
+I, [2014-01-05T06:53:14.759660 #3382]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (19.8ms)
+I, [2014-01-05T06:53:14.761258 #3382]  INFO -- : Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T06:57:43.187571 #3419]  INFO -- : Migrating to AddColumnsToUsers (20140105065728)
+I, [2014-01-05T07:05:03.135845 #3491]  INFO -- : Migrating to AddGenderToUsers (20140105070451)
+I, [2014-01-05T07:18:32.771109 #3379]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:18:32 +0000
+I, [2014-01-05T07:18:32.773727 #3379]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:18:32.777269 #3379]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.4ms)
+I, [2014-01-05T07:18:32.778904 #3379]  INFO -- : Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:20:16.326315 #3616]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:20:16 +0000
+I, [2014-01-05T07:20:16.349540 #3616]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:20:16.413238 #3616]  INFO -- :   Rendered display/index.html.erb within layouts/application (21.5ms)
+I, [2014-01-05T07:20:16.416242 #3616]  INFO -- : Completed 200 OK in 66ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:20:19.753857 #3613]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:20:19 +0000
+I, [2014-01-05T07:20:27.152442 #3616]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:20:27 +0000
+I, [2014-01-05T07:20:27.157044 #3616]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:20:27.161369 #3616]  INFO -- :   Rendered display/index.html.erb within layouts/application (2.0ms)
+I, [2014-01-05T07:20:27.162876 #3616]  INFO -- : Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:21:15.368967 #3613]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:21:15 +0000
+I, [2014-01-05T07:21:15.380113 #3613]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:21:15.413259 #3613]  INFO -- :   Rendered display/index.html.erb within layouts/application (27.1ms)
+I, [2014-01-05T07:21:15.416633 #3613]  INFO -- : Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:21:16.810696 #3616]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:21:16 +0000
+I, [2014-01-05T07:21:17.228103 #3613]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQB7joTTl4ls4HbSyl-PPZolBmLjP-JM7ZrDScpPh1E4gifZ_nHqZDsPVnBDtkEMbQUHC6zRFBhW_mIWyCJ5YW50rhV1voE9dAPmOGcGSgXMRRo6uEK9WdeSu4w_524xx4iQp88nyv10v5M-qSQknkrvDY9bTmz171OH4zvoiHhnV3C2brmZCIfHfmFJFm-MyAir0b7nUpzeLGjC_NqylNVBg7KJ20MCg1JzNthqClJe_3hfNSe-9WPFZ4ALsAa3nn3HywVAl0DMmhuPP8gX-myTdSI1mKN4bShcjRTCC2kW8op0rJkpqI821DVC1VyuJRs&state=9c094bb63ca927e3471729b4f94d0f3e3aba7efa20db4d15" for 201.141.110.1 at 2014-01-05 07:21:17 +0000
+F, [2014-01-05T07:21:17.749084 #3613] FATAL -- : 
+ActionController::RoutingError (uninitialized constant Users):
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/mapper.rb:44:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:401:in `call_app!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:363:in `callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4308606763539519492__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-05T07:21:48.958159 #3616]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQB7joTTl4ls4HbSyl-PPZolBmLjP-JM7ZrDScpPh1E4gifZ_nHqZDsPVnBDtkEMbQUHC6zRFBhW_mIWyCJ5YW50rhV1voE9dAPmOGcGSgXMRRo6uEK9WdeSu4w_524xx4iQp88nyv10v5M-qSQknkrvDY9bTmz171OH4zvoiHhnV3C2brmZCIfHfmFJFm-MyAir0b7nUpzeLGjC_NqylNVBg7KJ20MCg1JzNthqClJe_3hfNSe-9WPFZ4ALsAa3nn3HywVAl0DMmhuPP8gX-myTdSI1mKN4bShcjRTCC2kW8op0rJkpqI821DVC1VyuJRs&state=9c094bb63ca927e3471729b4f94d0f3e3aba7efa20db4d15" for 201.141.110.1 at 2014-01-05 07:21:48 +0000
+F, [2014-01-05T07:21:49.218099 #3616] FATAL -- : 
+NameError (uninitialized constant Users):
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.2) lib/active_support/inflector/methods.rb:224:in `constantize'
+  devise (3.2.2) lib/devise/omniauth.rb:19:in `block in <top (required)>'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:465:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:465:in `fail!'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:79:in `rescue in callback_phase'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:67:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4308606763539519492__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-05T07:36:57.498886 #3973]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:36:57 +0000
+I, [2014-01-05T07:36:57.517615 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:36:57.589107 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (29.8ms)
+I, [2014-01-05T07:36:57.592187 #3973]  INFO -- : Completed 200 OK in 74ms (Views: 33.9ms | ActiveRecord: 1.7ms)
+I, [2014-01-05T07:37:00.831169 #3970]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:37:00 +0000
+I, [2014-01-05T07:37:14.484799 #3973]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:37:14 +0000
+I, [2014-01-05T07:37:14.489256 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:37:14.493597 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.9ms)
+I, [2014-01-05T07:37:14.495251 #3973]  INFO -- : Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T07:37:16.195509 #3970]  INFO -- : Started GET "/users/auth/facebook" for 201.141.110.1 at 2014-01-05 07:37:16 +0000
+I, [2014-01-05T07:37:16.639803 #3973]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQCBtgEJgLjIyaJ0g463AB5UlhibbOsz5eVH4sFXkP-Ec9xiKIKrHviNiW9FrG07gmaEk4kxNQhpnrOlHKjTxggJ8lrHC9R5kAajXga7ven_8VipsOrkwsKJKAn09BmJUgbxGY5SVszV2atW_Yhkzk8qiRgrRiBzjPjFpkjK0VoekIswIf6-lwDjPi_zMvy5IJ4pdwMYszO2N-_CboPkauX8hCbaI9a_w7uf4nF-epr56a3mVJ1xyF21RlGXr0MV-psr4r3Cv6QnFHPKQqFGlSizYvGX5MxPoWOhnfAMFi9fIzBNwlN7XAahBf6-v19T6g0&state=71f2ee270dd06770329b5eac82c321130bc7c8761a974145" for 201.141.110.1 at 2014-01-05 07:37:16 +0000
+I, [2014-01-05T07:37:17.157565 #3973]  INFO -- : Processing by Users::OmniauthCallbacksController#facebook as HTML
+I, [2014-01-05T07:37:17.157800 #3973]  INFO -- :   Parameters: {"code"=>"AQCBtgEJgLjIyaJ0g463AB5UlhibbOsz5eVH4sFXkP-Ec9xiKIKrHviNiW9FrG07gmaEk4kxNQhpnrOlHKjTxggJ8lrHC9R5kAajXga7ven_8VipsOrkwsKJKAn09BmJUgbxGY5SVszV2atW_Yhkzk8qiRgrRiBzjPjFpkjK0VoekIswIf6-lwDjPi_zMvy5IJ4pdwMYszO2N-_CboPkauX8hCbaI9a_w7uf4nF-epr56a3mVJ1xyF21RlGXr0MV-psr4r3Cv6QnFHPKQqFGlSizYvGX5MxPoWOhnfAMFi9fIzBNwlN7XAahBf6-v19T6g0", "state"=>"71f2ee270dd06770329b5eac82c321130bc7c8761a974145"}
+I, [2014-01-05T07:37:17.163886 #3973]  INFO -- : #<OmniAuth::AuthHash credentials=#<OmniAuth::AuthHash expires=true expires_at=1394090477 token="CAAJHNAoZC16EBALF19DIOqbsr8SMDNmiz6YxWLBDbt0bYybc3s2ZAiAJQPWZAgdBHwNjEV9ZCmeU3Y6650pdnQGZALl0ZCpxTUZC43GAESnYZBZCX9Om8143aKVcfKjX9iIdpEVfSyeQsaXKRm1rDtpqliD7kQf9w8elje4xmBsAS9hoGU2Fu8uIifgZBBydraL9kZD"> extra=#<OmniAuth::AuthHash raw_info=#<OmniAuth::AuthHash bio="LUST" birthday="10/08/1992" education=[#<OmniAuth::AuthHash school=#<OmniAuth::AuthHash id="115167268499095" name="Facultad de Ingenieria, UNAM"> type="College">] email="maudiruiz@hotmail.com" favorite_athletes=[#<OmniAuth::AuthHash id="534297216587203" name="Ponce De León Expediciones">] first_name="Mau" gender="male" hometown=#<OmniAuth::AuthHash id="114897945188014" name="Mexico City, Mexico"> id="698860797" last_name="Ruiz" link="https://www.facebook.com/mau.ruiz.9" locale="es_LA" location=#<OmniAuth::AuthHash id="114897945188014" name="Mexico City, Mexico"> name="Mau Ruiz" timezone=-6 updated_time="2014-01-03T21:11:50+0000" username="mau.ruiz.9" verified=true>> info=#<OmniAuth::AuthHash::InfoHash description="LUST" email="maudiruiz@hotmail.com" first_name="Mau" image="http://graph.facebook.com/698860797/picture?type=square" last_name="Ruiz" location="Mexico City, Mexico" name="Mau Ruiz" nickname="mau.ruiz.9" urls=#<OmniAuth::AuthHash Facebook="https://www.facebook.com/mau.ruiz.9"> verified=true> provider="facebook" uid="698860797">
+E, [2014-01-05T07:37:17.433020 #3973] ERROR -- : Binary data inserted for `string` type on column `encrypted_password`
+E, [2014-01-05T07:37:17.474801 #3973] ERROR -- : Binary data inserted for `string` type on column `last_sign_in_ip`
+E, [2014-01-05T07:37:17.475123 #3973] ERROR -- : Binary data inserted for `string` type on column `current_sign_in_ip`
+I, [2014-01-05T07:37:17.484892 #3973]  INFO -- : Redirected to http://162.243.211.84/
+I, [2014-01-05T07:37:17.501523 #3973]  INFO -- : Completed 302 Found in 343ms (ActiveRecord: 44.6ms)
+I, [2014-01-05T07:37:17.712154 #3970]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:37:17 +0000
+I, [2014-01-05T07:37:17.725992 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:37:17.782161 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (50.0ms)
+I, [2014-01-05T07:37:17.785169 #3970]  INFO -- : Completed 200 OK in 59ms (Views: 54.0ms | ActiveRecord: 2.5ms)
+I, [2014-01-05T07:39:27.421972 #3973]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 07:39:27 +0000
+I, [2014-01-05T07:39:27.424639 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T07:39:27.431984 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (5.0ms)
+I, [2014-01-05T07:39:27.433527 #3973]  INFO -- : Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.6ms)
+I, [2014-01-05T08:19:45.342754 #3970]  INFO -- : Started GET "/" for 201.141.110.1 at 2014-01-05 08:19:45 +0000
+I, [2014-01-05T08:19:45.346660 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T08:19:45.352875 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (4.1ms)
+I, [2014-01-05T08:19:45.354082 #3970]  INFO -- : Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+I, [2014-01-05T08:54:53.365890 #3973]  INFO -- : Started HEAD "/" for 67.222.37.142 at 2014-01-05 08:54:53 +0000
+I, [2014-01-05T08:54:53.368725 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T08:54:53.372148 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.8ms)
+I, [2014-01-05T08:54:53.373515 #3973]  INFO -- : Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T08:55:03.014866 #3970]  INFO -- : Started GET "/" for 67.222.37.142 at 2014-01-05 08:55:03 +0000
+I, [2014-01-05T08:55:03.017648 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T08:55:03.042893 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (23.7ms)
+I, [2014-01-05T08:55:03.044556 #3970]  INFO -- : Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T09:24:10.978600 #3973]  INFO -- : Started GET "/user/edit" for 201.141.110.1 at 2014-01-05 09:24:10 +0000
+F, [2014-01-05T09:24:10.982312 #3973] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/user/edit"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-05T12:16:13.739873 #3973]  INFO -- : Started HEAD "/" for 67.222.37.142 at 2014-01-05 12:16:13 +0000
+I, [2014-01-05T12:16:13.741753 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T12:16:13.744004 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.2ms)
+I, [2014-01-05T12:16:13.745163 #3973]  INFO -- : Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T12:16:14.081324 #3970]  INFO -- : Started GET "/" for 67.222.37.142 at 2014-01-05 12:16:14 +0000
+I, [2014-01-05T12:16:14.083362 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T12:16:14.085981 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.4ms)
+I, [2014-01-05T12:16:14.087253 #3970]  INFO -- : Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T18:35:24.882157 #3973]  INFO -- : Started HEAD "/" for 80.84.248.25 at 2014-01-05 18:35:24 +0000
+I, [2014-01-05T18:35:24.884313 #3973]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-05T18:35:24.887248 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.7ms)
+I, [2014-01-05T18:35:24.888492 #3973]  INFO -- : Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+I, [2014-01-05T19:11:15.782804 #3970]  INFO -- : Started GET "/cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n" for 80.82.78.9 at 2014-01-05 19:11:15 +0000
+F, [2014-01-05T19:11:15.786171 #3970] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-05T21:06:14.739227 #3973]  INFO -- : Started GET "/cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n" for 80.82.78.9 at 2014-01-05 21:06:14 +0000
+F, [2014-01-05T21:06:14.742794 #3973] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T14:13:19.978687 #3973]  INFO -- : Started GET "/" for 76.164.225.90 at 2014-01-06 14:13:19 +0000
+I, [2014-01-06T14:13:19.981647 #3973]  INFO -- : Processing by DisplayController#index as */*
+I, [2014-01-06T14:13:19.992958 #3973]  INFO -- :   Rendered display/index.html.erb within layouts/application (4.7ms)
+I, [2014-01-06T14:13:19.995200 #3973]  INFO -- : Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T17:51:22.243254 #3973]  INFO -- : Started GET "/w00tw00t.at.blackhats.romanian.anti-sec:)" for 162.243.198.250 at 2014-01-06 17:51:22 +0000
+F, [2014-01-06T17:51:22.246442 #3973] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/w00tw00t.at.blackhats.romanian.anti-sec:)"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T17:51:22.318507 #3970]  INFO -- : Started GET "/phpMyAdmin/scripts/setup.php" for 162.243.198.250 at 2014-01-06 17:51:22 +0000
+F, [2014-01-06T17:51:22.321709 #3970] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpMyAdmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T17:51:22.341254 #3973]  INFO -- : Started GET "/phpmyadmin/scripts/setup.php" for 162.243.198.250 at 2014-01-06 17:51:22 +0000
+F, [2014-01-06T17:51:22.345901 #3973] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpmyadmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T17:51:22.381719 #3970]  INFO -- : Started GET "/pma/scripts/setup.php" for 162.243.198.250 at 2014-01-06 17:51:22 +0000
+F, [2014-01-06T17:51:22.384662 #3970] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pma/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T17:51:22.403165 #3973]  INFO -- : Started GET "/myadmin/scripts/setup.php" for 162.243.198.250 at 2014-01-06 17:51:22 +0000
+F, [2014-01-06T17:51:22.406165 #3973] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/myadmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T17:51:22.427111 #3970]  INFO -- : Started GET "/MyAdmin/scripts/setup.php" for 162.243.198.250 at 2014-01-06 17:51:22 +0000
+F, [2014-01-06T17:51:22.430083 #3970] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/MyAdmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T20:28:18.078698 #3973]  INFO -- : Started GET "/cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n" for 80.82.78.9 at 2014-01-06 20:28:18 +0000
+F, [2014-01-06T20:28:18.082294 #3973] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-01-06T22:19:45.377734 #3970]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:19:45 +0000
+I, [2014-01-06T22:19:45.380057 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:19:45.388437 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (6.3ms)
+I, [2014-01-06T22:19:45.389981 #3970]  INFO -- : Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 1.2ms)
+I, [2014-01-06T22:19:48.464075 #3973]  INFO -- : Started DELETE "/users/sign_out" for 189.212.161.221 at 2014-01-06 22:19:48 +0000
+I, [2014-01-06T22:19:48.471440 #3973]  INFO -- : Processing by Devise::SessionsController#destroy as HTML
+I, [2014-01-06T22:19:48.471697 #3973]  INFO -- :   Parameters: {"authenticity_token"=>"vgYxJEBZboWLQnDCWRUeo5U/CFZJr2EyMQvv+nIpzr4="}
+I, [2014-01-06T22:19:48.493200 #3973]  INFO -- : Redirected to http://162.243.211.84/
+I, [2014-01-06T22:19:48.493769 #3973]  INFO -- : Completed 302 Found in 22ms (ActiveRecord: 1.4ms)
+I, [2014-01-06T22:19:48.611815 #3970]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:19:48 +0000
+I, [2014-01-06T22:19:48.614128 #3970]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:19:48.618129 #3970]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.9ms)
+I, [2014-01-06T22:19:48.619479 #3970]  INFO -- : Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:23:58.052806 #9504]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:23:58 +0000
+I, [2014-01-06T22:23:58.080705 #9504]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:23:58.144604 #9504]  INFO -- :   Rendered display/index.html.erb within layouts/application (22.6ms)
+I, [2014-01-06T22:23:58.147513 #9504]  INFO -- : Completed 200 OK in 66ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:24:00.355771 #9507]  INFO -- : Started GET "/users/auth/facebook" for 189.212.161.221 at 2014-01-06 22:24:00 +0000
+I, [2014-01-06T22:24:01.590890 #9504]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQDm0rByLU55Rn4ox0dqZRm2LyIpp2mZeQIYQiCBmaaqLvqjgu_4l6Cz7qC0Yc7V5AR14-QIxT0vg-j4QC1Kvg0ZcrWvNcn11Z4Vol77cIqDHjZmj5qxU46M-HT66arFeWZUwVE_dZRExO-A9udRFHJ0owi-ILOtJxhS9jh1cE7kzJnXemQDATarxYwX0MPWURHeED884_Xgu8o3iqA-nVpn9c2xcbmfSOU3OhROPawIndbPjxku7_12RpN9aw9ouG9TwRzFNjxjNQZ_EMbKBii40YYG20KhyVLwZ2FTaYvuoXsCyyTb7i0CKnu2JoHIOf4&state=577cc7a2aa131c9c89de5718786d4680d376127289977fe2" for 189.212.161.221 at 2014-01-06 22:24:01 +0000
+I, [2014-01-06T22:24:02.140736 #9504]  INFO -- : Processing by Users::OmniauthCallbacksController#facebook as HTML
+I, [2014-01-06T22:24:02.140977 #9504]  INFO -- :   Parameters: {"code"=>"AQDm0rByLU55Rn4ox0dqZRm2LyIpp2mZeQIYQiCBmaaqLvqjgu_4l6Cz7qC0Yc7V5AR14-QIxT0vg-j4QC1Kvg0ZcrWvNcn11Z4Vol77cIqDHjZmj5qxU46M-HT66arFeWZUwVE_dZRExO-A9udRFHJ0owi-ILOtJxhS9jh1cE7kzJnXemQDATarxYwX0MPWURHeED884_Xgu8o3iqA-nVpn9c2xcbmfSOU3OhROPawIndbPjxku7_12RpN9aw9ouG9TwRzFNjxjNQZ_EMbKBii40YYG20KhyVLwZ2FTaYvuoXsCyyTb7i0CKnu2JoHIOf4", "state"=>"577cc7a2aa131c9c89de5718786d4680d376127289977fe2"}
+E, [2014-01-06T22:24:02.278743 #9504] ERROR -- : Binary data inserted for `string` type on column `current_sign_in_ip`
+I, [2014-01-06T22:24:02.297380 #9504]  INFO -- : Redirected to http://162.243.211.84/
+I, [2014-01-06T22:24:02.312292 #9504]  INFO -- : Completed 302 Found in 171ms (ActiveRecord: 94.9ms)
+I, [2014-01-06T22:24:02.432705 #9507]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:24:02 +0000
+I, [2014-01-06T22:24:02.445319 #9507]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:24:02.512775 #9507]  INFO -- :   Rendered display/index.html.erb within layouts/application (59.1ms)
+I, [2014-01-06T22:24:02.516310 #9507]  INFO -- : Completed 200 OK in 70ms (Views: 64.7ms | ActiveRecord: 2.4ms)
+I, [2014-01-06T22:24:04.613950 #9504]  INFO -- : Started DELETE "/users/sign_out" for 189.212.161.221 at 2014-01-06 22:24:04 +0000
+I, [2014-01-06T22:24:04.620553 #9504]  INFO -- : Processing by Devise::SessionsController#destroy as HTML
+I, [2014-01-06T22:24:04.620787 #9504]  INFO -- :   Parameters: {"authenticity_token"=>"Jska4sQ7edC6e/PijBeO6hRXdcyx6Xxjvho6vYYD4MI="}
+I, [2014-01-06T22:24:04.644048 #9504]  INFO -- : Redirected to http://162.243.211.84/
+I, [2014-01-06T22:24:04.644686 #9504]  INFO -- : Completed 302 Found in 24ms (ActiveRecord: 1.1ms)
+I, [2014-01-06T22:24:04.719757 #9507]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:24:04 +0000
+I, [2014-01-06T22:24:04.726418 #9507]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:24:04.758962 #9507]  INFO -- :   Rendered display/index.html.erb within layouts/application (28.0ms)
+I, [2014-01-06T22:24:04.761028 #9507]  INFO -- : Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:26:04.442716 #9504]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:26:04 +0000
+I, [2014-01-06T22:26:04.447381 #9504]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:26:04.451855 #9504]  INFO -- :   Rendered display/index.html.erb within layouts/application (2.1ms)
+I, [2014-01-06T22:26:04.453619 #9504]  INFO -- : Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:26:08.932592 #9507]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:26:08 +0000
+I, [2014-01-06T22:26:08.934733 #9507]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:26:08.938775 #9507]  INFO -- :   Rendered display/index.html.erb within layouts/application (1.8ms)
+I, [2014-01-06T22:26:08.940528 #9507]  INFO -- : Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:26:26.550979 #9569]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:26:26 +0000
+I, [2014-01-06T22:26:26.589802 #9569]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:26:26.677013 #9569]  INFO -- :   Rendered display/index.html.erb within layouts/application (30.3ms)
+I, [2014-01-06T22:26:26.680814 #9569]  INFO -- : Completed 200 OK in 91ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:26:26.948426 #9566]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:26:26 +0000
+I, [2014-01-06T22:26:27.050129 #9569]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.111719 #9566]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.117091 #9569]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.156801 #9566]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.177563 #9569]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.200102 #9566]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.203236 #9569]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.212373 #9566]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.218241 #9569]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:27.247947 #9566]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:26:27 +0000
+I, [2014-01-06T22:26:38.868395 #9569]  INFO -- : Started GET "/users/sign_up" for 189.212.161.221 at 2014-01-06 22:26:38 +0000
+I, [2014-01-06T22:26:38.872995 #9569]  INFO -- : Processing by Devise::RegistrationsController#new as HTML
+I, [2014-01-06T22:26:39.043461 #9569]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/shared/_links.erb (3.9ms)
+I, [2014-01-06T22:26:39.043773 #9569]  INFO -- :   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb within layouts/application (157.3ms)
+I, [2014-01-06T22:26:39.045408 #9569]  INFO -- : Completed 200 OK in 172ms (Views: 163.2ms | ActiveRecord: 1.8ms)
+I, [2014-01-06T22:26:45.632705 #9566]  INFO -- : Started GET "/users/auth/facebook" for 189.212.161.221 at 2014-01-06 22:26:45 +0000
+I, [2014-01-06T22:26:56.419506 #9569]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.423747 #9569]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:26:56.429443 #9569]  INFO -- :   Rendered display/index.html.erb within layouts/application (3.0ms)
+I, [2014-01-06T22:26:56.431130 #9569]  INFO -- : Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:26:56.545482 #9566]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.623997 #9566]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.627965 #9569]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.633180 #9566]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.637528 #9569]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.639926 #9569]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.643940 #9566]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.698777 #9569]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.703789 #9566]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.710434 #9569]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:56.716658 #9566]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:26:56 +0000
+I, [2014-01-06T22:26:59.245546 #9569]  INFO -- : Started GET "/users/auth/facebook" for 189.212.161.221 at 2014-01-06 22:26:59 +0000
+I, [2014-01-06T22:28:49.553182 #9566]  INFO -- : Started GET "/users/auth/facebook/callback?code=AQCQ1bJxdeK7fpHTr5IxNYqF83L7UIsbIp9hKQ9iSf0QYOh0F74QV17y0Xm6n-z-CzX3bZ2GHESElW_FXkdN_yJtzz4W0m10IVCSOpLS-ilepOTinSGmXj7vZB5bDia0yv3yMaykDNKB0dbrrHScMT2Nx2rVerrS26XHGi44h5HKpQ5lW8MqlLJlrIwwWFR-3Y1o74G4MQI-CrVJ4ZDnt4wLc9Gxp6Pz1wRlC6ABIEITiNyugNktgX5tqNOwQ5L7BzBiIDKBAUEMC30YkjWeQLllVki3OUqn32KUvOjYQcmXmbCLzo4RhfYadCtLvE5-PQ4&state=85a4d8b551ba472f58fd189a465d2c3f8e73f628870822c3" for 189.212.161.221 at 2014-01-06 22:28:49 +0000
+I, [2014-01-06T22:28:50.090784 #9566]  INFO -- : Processing by Users::OmniauthCallbacksController#facebook as HTML
+I, [2014-01-06T22:28:50.091057 #9566]  INFO -- :   Parameters: {"code"=>"AQCQ1bJxdeK7fpHTr5IxNYqF83L7UIsbIp9hKQ9iSf0QYOh0F74QV17y0Xm6n-z-CzX3bZ2GHESElW_FXkdN_yJtzz4W0m10IVCSOpLS-ilepOTinSGmXj7vZB5bDia0yv3yMaykDNKB0dbrrHScMT2Nx2rVerrS26XHGi44h5HKpQ5lW8MqlLJlrIwwWFR-3Y1o74G4MQI-CrVJ4ZDnt4wLc9Gxp6Pz1wRlC6ABIEITiNyugNktgX5tqNOwQ5L7BzBiIDKBAUEMC30YkjWeQLllVki3OUqn32KUvOjYQcmXmbCLzo4RhfYadCtLvE5-PQ4", "state"=>"85a4d8b551ba472f58fd189a465d2c3f8e73f628870822c3"}
+I, [2014-01-06T22:28:50.208060 #9566]  INFO -- : Redirected to http://162.243.211.84/
+I, [2014-01-06T22:28:50.223341 #9566]  INFO -- : Completed 302 Found in 132ms (ActiveRecord: 31.0ms)
+I, [2014-01-06T22:28:50.390233 #9569]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.393191 #9569]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:28:50.404453 #9569]  INFO -- :   Rendered display/index.html.erb within layouts/application (9.0ms)
+I, [2014-01-06T22:28:50.406521 #9569]  INFO -- : Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.7ms)
+I, [2014-01-06T22:28:50.789915 #9566]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.835022 #9569]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.837555 #9566]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.839849 #9566]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.869125 #9569]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.900858 #9566]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.906022 #9569]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.914195 #9569]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.917417 #9566]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.920892 #9569]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:28:50.951072 #9566]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:28:50 +0000
+I, [2014-01-06T22:29:12.823139 #9569]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:29:12 +0000
+I, [2014-01-06T22:29:12.825689 #9569]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:29:12.833023 #9569]  INFO -- :   Rendered display/index.html.erb within layouts/application (5.2ms)
+I, [2014-01-06T22:29:12.834473 #9569]  INFO -- : Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+I, [2014-01-06T22:29:13.002186 #9566]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.113535 #9566]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.156892 #9569]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.159210 #9566]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.160052 #9569]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.163181 #9569]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.164037 #9566]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.210570 #9569]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.296424 #9566]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.298768 #9566]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:29:13.299530 #9569]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:29:13 +0000
+I, [2014-01-06T22:31:17.628982 #9642]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:31:17 +0000
+I, [2014-01-06T22:31:17.652416 #9642]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:31:17.775564 #9642]  INFO -- :   Rendered display/index.html.erb within layouts/application (68.1ms)
+I, [2014-01-06T22:31:17.778964 #9642]  INFO -- : Completed 200 OK in 126ms (Views: 71.9ms | ActiveRecord: 3.6ms)
+I, [2014-01-06T22:31:18.227238 #9645]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.402455 #9642]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.407276 #9645]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.414537 #9642]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.419010 #9645]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.422973 #9642]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.426998 #9645]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.530188 #9642]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.533083 #9645]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.538954 #9642]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:31:18.543937 #9645]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:31:18 +0000
+I, [2014-01-06T22:34:06.687691 #9704]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:34:06 +0000
+I, [2014-01-06T22:34:06.711375 #9704]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:34:06.854938 #9702]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:34:06 +0000
+I, [2014-01-06T22:34:06.865177 #9704]  INFO -- :   Rendered display/index.html.erb within layouts/application (91.2ms)
+I, [2014-01-06T22:34:06.877758 #9704]  INFO -- : Completed 200 OK in 166ms (Views: 105.7ms | ActiveRecord: 3.0ms)
+I, [2014-01-06T22:34:06.897349 #9702]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:34:07.039465 #9702]  INFO -- :   Rendered display/index.html.erb within layouts/application (76.1ms)
+I, [2014-01-06T22:34:07.043260 #9702]  INFO -- : Completed 200 OK in 145ms (Views: 83.6ms | ActiveRecord: 2.6ms)
+I, [2014-01-06T22:34:09.642918 #9704]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.741344 #9702]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.817915 #9704]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.821191 #9702]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.826645 #9704]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.837423 #9702]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.885680 #9702]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.889788 #9704]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:09.897825 #9702]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:34:09 +0000
+I, [2014-01-06T22:34:10.116590 #9704]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:34:10 +0000
+I, [2014-01-06T22:34:10.278729 #9702]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:34:10 +0000
+I, [2014-01-06T22:36:02.264598 #9766]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:36:02 +0000
+I, [2014-01-06T22:36:02.297927 #9766]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:36:02.399742 #9766]  INFO -- :   Rendered display/index.html.erb within layouts/application (48.9ms)
+I, [2014-01-06T22:36:02.402308 #9766]  INFO -- : Completed 200 OK in 104ms (Views: 52.9ms | ActiveRecord: 1.8ms)
+I, [2014-01-06T22:36:02.830581 #9769]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:36:02 +0000
+I, [2014-01-06T22:36:02.986824 #9766]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:36:02 +0000
+I, [2014-01-06T22:36:02.992928 #9769]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:36:02 +0000
+I, [2014-01-06T22:36:02.997627 #9766]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:36:02 +0000
+I, [2014-01-06T22:36:03.051452 #9769]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:36:03.056926 #9766]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:36:03.060639 #9769]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:36:03.068405 #9766]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:36:03.075721 #9769]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:36:03.081816 #9766]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:36:03.125274 #9769]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:36:03 +0000
+I, [2014-01-06T22:39:06.468565 #9873]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:39:06 +0000
+I, [2014-01-06T22:39:06.482371 #9873]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:39:06.591341 #9873]  INFO -- :   Rendered display/index.html.erb within layouts/application (64.8ms)
+I, [2014-01-06T22:39:06.594048 #9873]  INFO -- : Completed 200 OK in 111ms (Views: 68.4ms | ActiveRecord: 2.0ms)
+I, [2014-01-06T22:39:07.027353 #9876]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.122618 #9873]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.304968 #9876]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.309092 #9873]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.313633 #9876]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.371684 #9873]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.375081 #9876]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.380189 #9873]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.391365 #9876]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.395589 #9873]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:39:07.396777 #9876]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:39:07 +0000
+I, [2014-01-06T22:43:46.194130 #10005]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:43:46 +0000
+I, [2014-01-06T22:43:46.219329 #10005]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:43:46.308602 #10005]  INFO -- :   Rendered display/index.html.erb within layouts/application (47.5ms)
+I, [2014-01-06T22:43:46.311454 #10005]  INFO -- : Completed 200 OK in 92ms (Views: 51.0ms | ActiveRecord: 1.8ms)
+I, [2014-01-06T22:43:46.832759 #10002]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:43:46 +0000
+I, [2014-01-06T22:43:46.951760 #10005]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:43:46 +0000
+I, [2014-01-06T22:43:47.021051 #10002]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.025079 #10005]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.034401 #10002]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.082742 #10005]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.086510 #10002]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.087883 #10005]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.106673 #10002]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.111274 #10005]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:47.114689 #10002]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:43:47 +0000
+I, [2014-01-06T22:43:56.953401 #10005]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:43:56 +0000
+I, [2014-01-06T22:43:56.957202 #10005]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:43:56.982324 #10005]  INFO -- :   Rendered display/index.html.erb within layouts/application (23.5ms)
+I, [2014-01-06T22:43:56.984040 #10005]  INFO -- : Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+I, [2014-01-06T22:43:57.160089 #10002]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.241463 #10002]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.330465 #10005]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.428711 #10005]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.507486 #10002]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.616840 #10002]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.702079 #10005]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.785506 #10002]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.822464 #10005]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.872827 #10002]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:43:57.874893 #10005]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:43:57 +0000
+I, [2014-01-06T22:44:03.023708 #10002]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.029338 #10002]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:44:03.232708 #10002]  INFO -- :   Rendered display/index.html.erb within layouts/application (149.7ms)
+I, [2014-01-06T22:44:03.235690 #10002]  INFO -- : Completed 200 OK in 206ms (Views: 153.8ms | ActiveRecord: 2.7ms)
+I, [2014-01-06T22:44:03.529065 #10005]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.608787 #10002]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.613858 #10005]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.615758 #10002]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.617703 #10005]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.621303 #10002]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.623110 #10002]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.688067 #10005]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.691471 #10002]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.706205 #10005]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:03.710221 #10002]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:44:03 +0000
+I, [2014-01-06T22:44:05.869472 #10005]  INFO -- : Started GET "/" for 189.212.161.221 at 2014-01-06 22:44:05 +0000
+I, [2014-01-06T22:44:05.872185 #10005]  INFO -- : Processing by DisplayController#index as HTML
+I, [2014-01-06T22:44:05.879745 #10005]  INFO -- :   Rendered display/index.html.erb within layouts/application (5.1ms)
+I, [2014-01-06T22:44:05.881227 #10005]  INFO -- : Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.6ms)
+I, [2014-01-06T22:44:06.108088 #10002]  INFO -- : Started GET "/assets/012.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.189699 #10002]  INFO -- : Started GET "/assets/001.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.192525 #10005]  INFO -- : Started GET "/assets/002.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.195764 #10002]  INFO -- : Started GET "/assets/003.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.197930 #10005]  INFO -- : Started GET "/assets/iphone.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.200146 #10002]  INFO -- : Started GET "/assets/004.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.202151 #10005]  INFO -- : Started GET "/assets/005.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.271630 #10005]  INFO -- : Started GET "/assets/006.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.274454 #10002]  INFO -- : Started GET "/assets/010.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.276958 #10002]  INFO -- : Started GET "/assets/007.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000
+I, [2014-01-06T22:44:06.278320 #10005]  INFO -- : Started GET "/assets/009.png" for 189.212.161.221 at 2014-01-06 22:44:06 +0000

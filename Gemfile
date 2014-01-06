@@ -5,6 +5,9 @@ gem 'rails', '4.0.2'
 
 #Gems that Mau has installed
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'protected_attributes'
 
 
 # Use sqlite3 as the database for Active Record
