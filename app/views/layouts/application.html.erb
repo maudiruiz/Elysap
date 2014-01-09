@@ -3,12 +3,115 @@
 <head>
   <title>Elysa</title>
   <%= stylesheet_link_tag 'bootstrap' %>
+   <%= stylesheet_link_tag 'elysa' %>
+
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+	<div class="container-full">
+
+
+
+
+      <div class="jumbotron greenback nav1">
+        <div class="container "> 
+         
+
+        </div>
+      </div>
+      
+   <!--    <div class="navbar navbar-default">
+        <div class="container text-left">
+
+
+           <div class="navbar-header">
+            <a class="navbar-brand" href="#"><div class="logo"></div></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">¿Cómo funciona?</a></li>
+              <li><a href="#">Precios</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+
+
+      <div class="jumbotron ">
+        <div class="container"> 
+            <div class="row nav2">
+              <div class="col-lg-4 ">
+             
+                <%= link_to image_tag("/assets/012.png"), root_path %>
+
+                </li> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Menu -->
+
+
+
+      <div class="jumbotron darkgrey">
+        <div class="container "> 
+            <div class="row ">
+              <a href="#como">
+                <div class="col-lg-2 grey2 men1 nav1">
+
+                </div>
+              </a>
+              <a href="#blog">
+                <div class="col-lg-2 grey2 men1 nav1">
+
+                </div>
+              </a>
+              <a href="#regis">
+                <div class="col-lg-2 col-md-offset-6 greenback men1 nav1">
+
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="jumbotron ">
+        <div class="container "> 
+        <div class="row menpill">
+              <a href="#como">
+                <div class="col-lg-2  men1 nav1">
+                  ¿Cómo funciona?
+                </div>
+              </a>
+              <a href="#blog">
+                <div class="col-lg-2  men1 nav1">
+                  Blog
+                </div>
+              </a>
+
+              <a href=" <%=  new_user_registration_path %>">
+                <div class="col-lg-2 col-md-offset-6  men1 nav1">
+                  Registrate
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
 <%= yield %>
+
+</div> <!-- /container full -->
+
 
 </body>
 </html>

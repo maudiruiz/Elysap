@@ -1,0 +1,170 @@
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Custom navbar */
+.navbar-brand ,.navbar-nav>li>a {
+    padding-left: 30px;
+    padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} 
+.navbar-nav>.active>a {
+  opacity:.6;
+}
+.innercontainer{
+  width: 1024px;
+}
+.back-doctores{
+  background-image: url('assets/010.png');
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: right bottom;
+  vertical-align: top;
+  background-color: #fff;
+  padding-top: 170px;
+}
+.patientback{
+    background-image: url('assets/009.png');
+  background-repeat: no-repeat;
+
+  background-position: right bottom;
+  vertical-align: top;
+  padding-top: 170px;
+    padding-bottom: 170px;
+
+
+}
+.lead p{
+    line-height: 30px !important;
+
+}
+.darkgrey{
+    background-color: #eee !important;
+    margin-bottom: 0 !important;
+}
+.grey{
+  background-color: #f9f9f9 !important;
+  padding: 30px;
+
+}
+.white{
+   color: #fff !important;
+
+}
+.white b{
+  font-weight: 400;
+}
+.green{
+   color: #83d6d3 !important;
+
+}
+.green b{
+  font-weight: 500;
+}
+.pink{
+  color: #e46d82 !important;
+}
+.pink b{
+  font-weight: 500;
+}
+.sub-dos{
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+h1{
+  font-weight: 100 !important;
+}
+.col-lg-4 p{
+  font-size: 13px;
+
+}
+/*.col-lg-4 img{
+  padding-bottom: 40px;
+}
+*/.col-lg-3 img{
+  padding-bottom: 20px;
+}
+.darkgrey .col-lg-4 {
+  height: 10px;
+
+}
+.grey1{
+   background-color: #f1f1f1;
+}
+.grey2{
+   background-color: #e3e3e3;
+}
+.greenback{
+    background-color: #83d6d3 !important  ; 
+
+}
+.pinkback{
+    background-color: #e46d82;
+
+}
+.yellowback{
+    background-color: #feb192;
+
+}
+.selling{
+  color:#83d6d3;
+  font-weight: 300;
+  font-size: 18px;
+  padding:100px;
+}
+.greensubs{
+
+  padding:60px;
+  background-color: #83d6d3 !important; 
+  
+
+}
+.btn-primary{
+  background-color: #a2e0de !important;
+  border-color: #a2e0de !important;
+}
+.greenlight{
+  background-color: #a5e1df !important;
+  font
+}
+.greenlight {
+  line-height: 25px !important;  
+  color: #fff !important;
+  font-size: 14px !important;
+  padding: 30px;
+}
+
+.darkgrey .col-lg-3 {
+  height: 10px;
+
+}
+.nav1{
+  height: 10px;
+}
+.nav2{
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.men1{
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+
+.text-condensed{
+  line-height: 20px;
+  font-size: 14px;
+  padding-right: 150px !important; 
+}
+.logo{
+  background-image: url('assets/012.png');
+  width: 100px;
+  height: 100px;
+}
+.menpill{
+  font-size: 12px;
+}
