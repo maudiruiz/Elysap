@@ -89,11 +89,13 @@
                   ¿Cómo funciona?
                 </div>
               </a>
-              <a href="#blog">
-                <div class="col-lg-2  men1 nav1">
-                  Blog
-                </div>
-              </a>
+
+              <%= link_to 'http://elysaco.tumblr.com/' do %>
+                 <div class="col-lg-2  men1 nav1">
+                    Blog
+                  </div>
+              <% end %>
+             
 
               <a href=" <%=  new_user_registration_path %>">
                 <div class="col-lg-2 col-md-offset-6  men1 nav1">

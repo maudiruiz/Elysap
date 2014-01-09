@@ -18,7 +18,7 @@
   width: 1024px;
 }
 .back-doctores{
-  background-image: url('assets/010.png');
+  background-image: url('/assets/010.png');
   background-repeat: no-repeat;
   height: 550px;
   background-position: right bottom;
@@ -27,7 +27,7 @@
   padding-top: 170px;
 }
 .patientback{
-    background-image: url('assets/009.png');
+    background-image: url('/assets/009.png');
   background-repeat: no-repeat;
 
   background-position: right bottom;
