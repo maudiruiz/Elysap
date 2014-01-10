@@ -6294,3 +6294,2710 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:14:44
 
 
 Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:14:44 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (3.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 148ms (Views: 147.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:22:42 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:23:30 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:24:18 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 121ms (Views: 119.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:24:43 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:24:52 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:24:55 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:24:56 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:25:04 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:25:49 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:50 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:25:51 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:25:52 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:25:54 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:54 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:25:54 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:55 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:55 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:25:55 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:25:55 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:26:13 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:26:37 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:26:53 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:27:14 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:27:31 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:27:53 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:53 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:53 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:54 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:54 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:27:54 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:54 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 17:27:55 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:27:58 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:33:07 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (4.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (149.0ms)
+Completed 200 OK in 390ms (Views: 306.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:08 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (111.2ms)
+Completed 200 OK in 252ms (Views: 249.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:22 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:33:23 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:33:34 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 584ms (Views: 582.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:33:35 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 17:34:55 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 320ms (Views: 316.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:35:00 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:35:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:35:01 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:35:01 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:35:01 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:35:01 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:35:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:35:05 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:35:05 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 17:35:07 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:36:07 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (133.9ms)
+Completed 200 OK in 439ms (Views: 435.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:36:08 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 17:36:29 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (133.3ms)
+Completed 200 OK in 1277ms (Views: 1275.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 17:36:32 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:11:13 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (76.3ms)
+Completed 200 OK in 275ms (Views: 192.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:11:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:18:41 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 111ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:18:43 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 653ms (Views: 651.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 71ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:18:44 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:18:45 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:18:46 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:18:48 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:21:41 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (309.8ms)
+Completed 500 Internal Server Error in 443ms
+
+ActionView::Template::Error (Missing partial shared/devise_links with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/maudiruiz/Desktop/elysap/app/views"
+  * "/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+):
+    288:         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+    289:       </div>
+    290:       <div class="modal-body">
+    291:         <%= render :partial => "shared/devise_links" %>
+    292: 
+    293:         ...
+    294:       </div>
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2163466820'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (36.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (80.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:22:04 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (68.2ms)
+Completed 500 Internal Server Error in 96ms
+
+ActionView::Template::Error (Missing partial devise/registrations with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/maudiruiz/Desktop/elysap/app/views"
+  * "/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+):
+    288:         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+    289:       </div>
+    290:       <div class="modal-body">
+    291:         <%= render :partial => "devise/registrations" %>
+    292: 
+    293:         ...
+    294:       </div>
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175566040'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (80.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:22:12 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (29.6ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (Missing partial devise/registrations/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/maudiruiz/Desktop/elysap/app/views"
+  * "/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+):
+    288:         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+    289:       </div>
+    290:       <div class="modal-body">
+    291:         <%= render :partial => "devise/registrations/new" %>
+    292: 
+    293:         ...
+    294:       </div>
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2176598280'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (95.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (39.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (160.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:24:18 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (3.6ms)
+  Rendered display/index.html.erb within layouts/application (94.8ms)
+Completed 500 Internal Server Error in 167ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163172520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2157182680'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (122.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (201.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:24:38 -0600
+Processing by DisplayController#index as HTML
+ERROR: compiling _app_views_display_index_html_erb___3307908698219790569_2165646720 RAISED /Users/maudiruiz/Desktop/elysap/app/views/display/index.html.erb:292: syntax error, unexpected ')'
+                   );@output_buffer.safe_append='
+                    ^
+/Users/maudiruiz/Desktop/elysap/app/views/display/index.html.erb:304: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/maudiruiz/Desktop/elysap/app/views/display/index.html.erb:306: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_display_index_html_erb___3307908698219790569_2165646720(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "display/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='
+<head>
+<meta charset="UTF-8">
+</head>
+<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ -->
+
+
+
+
+      <div class="jumbotron text-center">
+        <div class="container text-left back-doctores ">
+          <h1 class="green">Humanos <b>cuidando personas</b></h1>
+
+          <p class="lead">Suscripción médica ilimitada, personal, y humana, en la comidad de tu casa.</p>
+
+            <p>              
+              ';@output_buffer.append=  link_to new_user_registration_path do @output_buffer.safe_append='
+              <button type="button"  class="btn btn-primary btn-lg">Súscribete</button>
+';               end 
+@output_buffer.safe_append='            </p>
+
+        </div>
+      </div>
+
+      <div class="jumbotron darkgrey">
+        <div class="container"> 
+            <div class="row ">
+              <div class="col-lg-4 greenback">
+
+              </div>
+              <div class="col-lg-4 pinkback">
+
+              </div>
+
+               <div class="col-lg-4 yellowback">
+
+              </div>
+              
+            </div>
+
+        </div>
+      </div>
+
+      <div class="jumbotron grey">
+        <div class="container"> 
+        <div class="row ">
+          <div class="col-lg-4">
+
+            <h4>Prevención</h4>
+            <h5 class="sub-dos">Conservamos tu salud</h5>
+             ';@output_buffer.append=( image_tag ("/assets/001.png"));@output_buffer.safe_append='
+
+            <p>El 70% de las enfermedades pueden prevenirse con hábitos apropiados y chequeos regulares.</p>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <h4>Atención</h4>
+            <h5 class="sub-dos">Cuidamos tu salud</h5>
+
+             ';@output_buffer.append=( image_tag ("/assets/002.png"));@output_buffer.safe_append='
+
+            <p>Acceso a consultas médicas ilimitadas de atención primaria en la comodidad de tu casa, justo como si fueras al consultorio.</p>
+
+
+          </div>
+           <div class="col-lg-4">
+
+            <h4>Canalización</h4>
+            <h5 class="sub-dos">No te dejamos solo</h5>
+
+             ';@output_buffer.append=( image_tag ("/assets/003.png"));@output_buffer.safe_append='
+
+            <p>En caso de tener que ser canalizado podrá ser con alguno de nuestros médicos y centros de salud verificados para garantizarte la mejor atención.</p>
+
+
+          </div>
+        </div>
+        </div>
+      </div>
+  
+
+  
+      <div class="jumbotron text-center">
+        <div class="container text-left">
+        
+          <h1 class="pink">Tu salud, <b>en la palma de tu mano<b></h1>
+          <p class="lead">Un Profesional en tu puerta siempre que lo necesites. Sólo basta un toque en tu pantalla.</p>
+          <div class="col-lg-4">
+             ';@output_buffer.append=( image_tag ("/assets/iphone.png"));@output_buffer.safe_append='
+          </div>
+          <div class="col-lg-8 selling">
+            <br>
+                Podrás entrar a nuestra plataforma desde cualquier dispositivo.<br>
+                Elige entre Consulta, Check-Up y Canalización.<br>
+
+                Te asignaremos una cita en menos de 2 horas.<br>
+
+                Llegaremos a donde te encuentres, tu casa o trabajo.<br>
+
+                Al terminar recibes digital y físicamente un resumen de tu consulta.<br>
+
+                Tendrás la opción de recibir tus medicamentos a domicilio.<br>
+          </div>
+        </div>
+                  </br></br>
+
+      </div>
+
+      
+
+
+      <div class="jumbotron darkgrey">
+        <div class="container"> 
+            <div class="row ">
+              <div class="col-lg-3 grey1">
+
+              </div>
+              <div class="col-lg-3 grey2">
+
+              </div>
+
+               <div class="col-lg-3 grey1">
+
+              </div>
+              <div class="col-lg-3 grey2">
+
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container"> 
+      <div class="row">
+        <div class="col-lg-3">
+          <h4>Conserva tu salud</h4></br>
+          ';@output_buffer.append=( image_tag ("/assets/004.png") );@output_buffer.safe_append='
+
+          <p>Prevención antes de tratamiento.</p>
+
+        </div>
+
+        <div class="col-lg-3">
+          <h4>Tu tiempo, tan valioso como tu salud</h4></br>
+             ';@output_buffer.append=( image_tag ("/assets/005.png"));@output_buffer.safe_append='
+
+          <p>Atención en tus horarios, en tu casa u oficina.</p>
+
+
+        </div>
+         <div class="col-lg-3">
+          <h4>NO pagas consulta</h4></br>
+             ';@output_buffer.append=( image_tag ("/assets/006.png"));@output_buffer.safe_append='
+
+          <p>Solicita un profesional todas las veces que lo necesites sin pagar más.</p>
+
+
+        </div>
+          <div class="col-lg-3">
+          <h4>Sin preguntas ni requisitos.</h4></br>
+             ';@output_buffer.append=( image_tag ("/assets/007.png"));@output_buffer.safe_append='
+
+          <p>La suscripción a Elysa es para cualquiera, sin importar tu condición..</p>
+
+
+        </div>
+
+      </div>
+      </div>
+  
+ 
+
+
+       <div class="jumbotron grey text-center  ">
+        <div class="container text-left patientback">
+
+
+          <h1 class="green">Sólo <b>los mejores</b></h1>
+          <p class="lead">Tu Salud en las mejores manos.</p>
+   
+          <div class="col-lg-6 text-condensed">
+            <br>
+         
+  En Elysa reclutamos una nueva generación de profesionales con un enfoque humano y personalizado.</br></br>
+Más de 250 profesionales de la salud a tu alcance, desde médicos generales y especializados, hasta nutriólogos y psicólogos. Todos cuidando de ti.</br></br>
+
+A tu puerta más que un médico, llegará un amigo que se ocupará por manterte sano.
+          </div>
+        </br>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+       <div class="jumbotron text-center greensubs">
+        <div class="container text-left ">
+          <div class="col-lg-8">
+
+          </br><h1 class="white">Suscríbete <b>a tu salud</b></h1>
+          <p class="lead">Pre-Regístrate hoy y sé de los primeros con acceso a una suscripción.</p>
+        </div>
+          <div class="col-lg-3">
+          <!--   <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input type="text" class="form-control" placeholder="ingresa tu e-mail">
+            </div> -->
+            <hr>
+            <a href=" ';@output_buffer.append=(  new_user_registration_path );@output_buffer.safe_append='">
+                <button type="button" style="width:100%" class="btn btn-primary btn-lg">Súscribete</button>
+            </a>
+            <hr>
+            <a href=" ';@output_buffer.append=(  user_omniauth_authorize_path(:facebook) );@output_buffer.safe_append='">
+
+            <button type="button" style="width:100%" class="btn btn-primary btn-lg">Ingresar con FB.</button>
+            </a>
+
+
+
+          </div>
+
+
+   
+
+
+        </div>
+      </div>
+
+
+      <div class="jumbotron text-left greenlight">
+
+        <div class="container"> 
+        <div class="row">
+          <div class="col-lg-3">
+
+            Blog</br>
+            Cómo Funciona</br>
+            Precios</br>
+            Suscribe a un Familiar</br>
+            Regístrate</br>
+            Contacto</br>
+            </br>
+
+          </div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+<div id="user_nav">
+';   if user_signed_in? 
+@output_buffer.safe_append='    Signed in as ';@output_buffer.append=( current_user.email );@output_buffer.safe_append='. Not you?
+    ';@output_buffer.append=( link_to "Sign out", destroy_user_session_path, :method => :delete );@output_buffer.safe_append='</br>
+        ';@output_buffer.append=( current_user.inspect );@output_buffer.safe_append='
+';   else 
+@output_buffer.safe_append='    ';@output_buffer.append=( link_to "Sign up", new_user_registration_path );@output_buffer.safe_append=' or ';@output_buffer.append=( link_to "sign in", new_user_session_path );@output_buffer.safe_append='
+    ';@output_buffer.append=( link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) );@output_buffer.safe_append='
+
+';   end 
+@output_buffer.safe_append='</div>
+
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ';@output_buffer.append=( render :template => "devise/registrations/new", 
+                   );@output_buffer.safe_append='
+
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__1552525070659998746__process_action__callbacks'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:184:in `call!'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/omniauth-1.1.4/lib/omniauth/strategy.rb:164:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__1285872604500648681__call__callbacks'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered display/index.html.erb within layouts/application (265.8ms)
+Completed 500 Internal Server Error in 281ms
+
+ActionView::Template::Error (/Users/maudiruiz/Desktop/elysap/app/views/display/index.html.erb:292: syntax error, unexpected ')'
+                   );@output_buffer.safe_append='
+                    ^
+/Users/maudiruiz/Desktop/elysap/app/views/display/index.html.erb:304: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/maudiruiz/Desktop/elysap/app/views/display/index.html.erb:306: syntax error, unexpected keyword_end, expecting ')'):
+    289:       </div>
+    290:       <div class="modal-body">
+    291:         <%= render :template => "devise/registrations/new", 
+    292:                    %>
+    293: 
+    294:         ...
+    295:       </div>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__1552525070659998746__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__1285872604500648681__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (34.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (53.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:24:45 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (282.7ms)
+  Rendered display/index.html.erb within layouts/application (329.8ms)
+Completed 500 Internal Server Error in 365ms
+
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00000101342180>:0x00000101aebf80>):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2173981720'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2161722880'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:24:47 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (331.1ms)
+  Rendered display/index.html.erb within layouts/application (333.3ms)
+Completed 500 Internal Server Error in 336ms
+
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00000101342180>:0x000001036632e0>):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2173981720'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2161722880'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:25:18 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (139.2ms)
+  Rendered devise/registrations/new.html.erb (360.2ms)
+  Rendered display/index.html.erb within layouts/application (362.5ms)
+Completed 500 Internal Server Error in 365ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000103719ef0>:0x000001037191a8>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/devise/registrations/new.html.erb:18:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2173981720'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2161722880'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:25:41 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (156.9ms)
+  Rendered devise/registrations/new.html.erb (176.0ms)
+  Rendered display/index.html.erb within layouts/application (178.3ms)
+Completed 500 Internal Server Error in 181ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x000001037b9518>:0x000001037b8690>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/devise/registrations/new.html.erb:18:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2173981720'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2161722880'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (54.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:26:12 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (8.6ms)
+  Rendered display/index.html.erb within layouts/application (44.3ms)
+Completed 500 Internal Server Error in 101ms
+
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x000001034513d0>:0x00000103459800>):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2173981720'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2161722880'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:26:21 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (91.3ms)
+  Rendered display/index.html.erb within layouts/application (93.6ms)
+Completed 500 Internal Server Error in 171ms
+
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00000102221638>:0x000001022209e0>):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2173981720'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2161722880'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:26:53 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (1.2ms)
+  Rendered display/index.html.erb within layouts/application (25.9ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163172520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175654520'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:27:07 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (87.4ms)
+  Rendered display/index.html.erb within layouts/application (91.7ms)
+Completed 500 Internal Server Error in 95ms
+
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00000102221638>:0x000001037c1998>):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2162869860'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2176713040'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:27:18 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (0.9ms)
+  Rendered display/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163172520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175468440'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:27:19 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (1.4ms)
+  Rendered display/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163172520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175468440'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:28:22 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (3.1ms)
+  Rendered display/index.html.erb within layouts/application (117.2ms)
+Completed 500 Internal Server Error in 174ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163172520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175468440'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:28:25 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (34.6ms)
+  Rendered display/index.html.erb within layouts/application (37.1ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163172520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175468440'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:28:36 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (56.2ms)
+  Rendered devise/registrations/new.html.erb (112.6ms)
+  Rendered display/index.html.erb within layouts/application (116.0ms)
+Completed 500 Internal Server Error in 119ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101e3be10>:0x0000010355b168>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/devise/registrations/new.html.erb:18:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2162869860'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2175453160'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:29:27 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:29:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:32:16 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (74.6ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (Missing partial display/links, application/links with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/maudiruiz/Desktop/elysap/app/views"
+  * "/Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+):
+    305:   <div><%= f.submit "Sign up" %></div>
+    306: <% end %>
+    307: 
+    308: <%= render "links" %>
+    309:         ...
+    310:       </div>
+    311:       <div class="modal-footer">
+  app/views/display/index.html.erb:308:in `_app_views_display_index_html_erb___3307908698219790569_2162327980'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:32:41 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (90.8ms)
+  Rendered display/index.html.erb within layouts/application (204.3ms)
+Completed 500 Internal Server Error in 207ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101bb8ee0>:0x00000103713e88>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/display/index.html.erb:310:in `_app_views_display_index_html_erb___3307908698219790569_2176357960'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:33:02 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:33:03 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:33:03 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 104ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:17 -0600
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (16.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 43ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:33:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:33:54 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (144.2ms)
+  Rendered display/index.html.erb within layouts/application (148.1ms)
+Completed 500 Internal Server Error in 151ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101bb8ee0>:0x00000101d60ba8>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2162891200'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:34:08 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (124.8ms)
+  Rendered display/index.html.erb within layouts/application (129.0ms)
+Completed 500 Internal Server Error in 133ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101bb8ee0>:0x000001035d8bb8>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2162891200'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:34:09 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (105.3ms)
+  Rendered display/index.html.erb within layouts/application (107.9ms)
+Completed 500 Internal Server Error in 111ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101bb8ee0>:0x000001035f2a18>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2162891200'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:34:18 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (75.2ms)
+  Rendered display/index.html.erb within layouts/application (77.6ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101bb8ee0>:0x00000103600c30>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2162891200'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:34:19 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (48.5ms)
+  Rendered display/index.html.erb within layouts/application (50.7ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (undefined local variable or method `resource_class' for #<#<Class:0x00000101bb8ee0>:0x00000103611fd0>):
+    19: <% end -%>
+    20: 
+    21: <%- if devise_mapping.omniauthable? %>
+    22:   <%- resource_class.omniauth_providers.each do |provider| %>
+    23:     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+    24:   <% end -%>
+    25: <% end -%>
+  app/views/devise/shared/_links.erb:22:in `_app_views_devise_shared__links_erb__942158228885695877_2172855240'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2162891200'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered display/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 46ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:34:48 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:34:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:35:36 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/registrations/new.html.erb (30.5ms)
+  Rendered display/index.html.erb within layouts/application (34.8ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 		<h2>Sign up</h2>
+    2: 
+    3: 		<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    4: 		  <%= devise_error_messages! %>
+    5: 
+    6: 		  <div><%= f.label :email %><br />
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___2662580809862579393_2163113520'
+  app/views/display/index.html.erb:291:in `_app_views_display_index_html_erb___3307908698219790569_2190044240'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+Processing by DisplayController#index as HTML
+  Rendered devise/shared/_links.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb (5.0ms)
+  Rendered display/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:35:48 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:36:22 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-09 18:36:31 -0600
