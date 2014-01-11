@@ -203,5 +203,13 @@ h1{
   margin-top: 20px;
 }
 .registro{
-  padding:50px;
+  width:300px;
+}
+.btn-facebook{
+  background-color: #456091 !important;
+  border-color: #456091 !important;
+  color: white;
+}
+.btn-facebook:hover{
+  color: white;
 }

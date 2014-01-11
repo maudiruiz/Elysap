@@ -280,33 +280,35 @@ A tu puerta más que un médico, llegará un amigo que se ocupará por manterte 
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog registro">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel"><%= image_tag("/assets/012.png") %></h4>
       </div>
       <div class="modal-body">
-<h2>Sign up</h2>
 
-<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+      <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
+        <%= link_to "Registrarme con Facebook",user_omniauth_authorize_path(:facebook, :zipcode=>'12345'), :class=> "btn btn-lg btn-block btn-facebook " %>
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, :autofocus => true %></div>
+        <div><%= f.label :email %><br />
+        <%= f.email_field :email, :autofocus => true, :class => "form-control" %></div>
 
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+        <div><%= f.label :password %><br />
+        <%= f.password_field :password, :class => "form-control" %></div>
 
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
+        <div><%= f.label :password_confirmation %><br />
+        <%= f.password_field :password_confirmation , :class => "form-control"%></div>
 
-  <div><%= f.submit "Sign up" %></div>
-<% end %>      </div>
+        <div></div>
+      </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <%= f.submit "Enviar", :class=> "btn btn-primary" %>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <% end %>      
+
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
