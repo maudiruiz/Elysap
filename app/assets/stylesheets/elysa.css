@@ -213,3 +213,6 @@ h1{
 .btn-facebook:hover{
   color: white;
 }
+.pointer{
+  cursor: pointer;
+}
