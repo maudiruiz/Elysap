@@ -33581,3 +33581,167 @@ ActiveRecord::MultiparameterAssignmentErrors (1 error(s) on assignment of multip
   Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
   Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
   Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to ChangeDataTypeForBirthday (20140115083640)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.6ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "gender" varchar(255), "birthday" varchar(255)) [0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (1, 'maudiruiz@hotmail.com', '$2a$10$PNoYg2nDfNglPY1.I14s7eakiSLqd5zVxNIaQdvutfhfEeFecn.3m', NULL, NULL, NULL, 1, '2014-01-11 00:40:17.307259', '2014-01-11 00:40:17.307259', '127.0.0.1', '127.0.0.1', '2014-01-11 00:40:17.217217', '2014-01-11 00:40:17.309040', 'facebook', '698860797', 'Mau Ruiz', 'male', '10/08/1992')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (2, 'tere@gmail.com', '$2a$10$WQNWNi6/9r7DugKChE0ST.3l9HGb.dB0VOEodbxvDqAG7qVNJVVWC', NULL, NULL, NULL, 1, '2014-01-15 07:57:17.407412', '2014-01-15 07:57:17.407412', '127.0.0.1', '127.0.0.1', '2014-01-15 07:57:17.281002', '2014-01-15 07:57:17.439242', NULL, NULL, NULL, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (3, 'pepe@ieie.com', '$2a$10$vw/R/Nu4rKiAgwdQXW4GhO002DfvM3uai2LFvgwMY5iPUJDPsajUC', NULL, NULL, NULL, 1, '2014-01-15 08:04:16.952753', '2014-01-15 08:04:16.952753', '127.0.0.1', '127.0.0.1', '2014-01-15 08:04:16.920598', '2014-01-15 08:04:16.953348', NULL, NULL, NULL, NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (4, 'chu@gma.com', '$2a$10$qMz9QMDwNaDaLTgQmrpVsOh3OOTUMbNgRUIVx6lmIKeaiGPPskMtK', NULL, NULL, NULL, 1, '2014-01-15 08:09:08.979786', '2014-01-15 08:09:08.979786', '127.0.0.1', '127.0.0.1', '2014-01-15 08:09:08.885992', '2014-01-15 08:09:08.980993', NULL, NULL, NULL, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (5, 'm@k.com', '$2a$10$zmiEORx63LwK6lNvyR.IOOxf2JdscSbWkPgfrFjSnoePBdmoU.bDe', NULL, NULL, NULL, 1, '2014-01-15 08:13:46.457000', '2014-01-15 08:13:46.457000', '127.0.0.1', '127.0.0.1', '2014-01-15 08:13:46.357454', '2014-01-15 08:13:46.457950', NULL, NULL, 'TORO', 'Mujer', 'jasda')[0m
+  [1m[35m (25.0ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "gender" varchar(255), "birthday" datetime(255)) [0m
+  [1m[35m (0.4ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (1, 'maudiruiz@hotmail.com', '$2a$10$PNoYg2nDfNglPY1.I14s7eakiSLqd5zVxNIaQdvutfhfEeFecn.3m', NULL, NULL, NULL, 1, '2014-01-11 00:40:17.307259', '2014-01-11 00:40:17.307259', '127.0.0.1', '127.0.0.1', '2014-01-11 00:40:17.217217', '2014-01-11 00:40:17.309040', 'facebook', '698860797', 'Mau Ruiz', 'male', '10/08/1992')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (2, 'tere@gmail.com', '$2a$10$WQNWNi6/9r7DugKChE0ST.3l9HGb.dB0VOEodbxvDqAG7qVNJVVWC', NULL, NULL, NULL, 1, '2014-01-15 07:57:17.407412', '2014-01-15 07:57:17.407412', '127.0.0.1', '127.0.0.1', '2014-01-15 07:57:17.281002', '2014-01-15 07:57:17.439242', NULL, NULL, NULL, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (3, 'pepe@ieie.com', '$2a$10$vw/R/Nu4rKiAgwdQXW4GhO002DfvM3uai2LFvgwMY5iPUJDPsajUC', NULL, NULL, NULL, 1, '2014-01-15 08:04:16.952753', '2014-01-15 08:04:16.952753', '127.0.0.1', '127.0.0.1', '2014-01-15 08:04:16.920598', '2014-01-15 08:04:16.953348', NULL, NULL, NULL, NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (4, 'chu@gma.com', '$2a$10$qMz9QMDwNaDaLTgQmrpVsOh3OOTUMbNgRUIVx6lmIKeaiGPPskMtK', NULL, NULL, NULL, 1, '2014-01-15 08:09:08.979786', '2014-01-15 08:09:08.979786', '127.0.0.1', '127.0.0.1', '2014-01-15 08:09:08.885992', '2014-01-15 08:09:08.980993', NULL, NULL, NULL, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","provider","uid","name","gender","birthday") VALUES (5, 'm@k.com', '$2a$10$zmiEORx63LwK6lNvyR.IOOxf2JdscSbWkPgfrFjSnoePBdmoU.bDe', NULL, NULL, NULL, 1, '2014-01-15 08:13:46.457000', '2014-01-15 08:13:46.457000', '127.0.0.1', '127.0.0.1', '2014-01-15 08:13:46.357454', '2014-01-15 08:13:46.457950', NULL, NULL, 'TORO', 'Mujer', 'jasda')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "ausers"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140115083640"]]
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started POST "/users" for 127.0.0.1 at 2014-01-15 02:40:57 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (25.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"anqyOZhRSUerjOtCXGcqR6ZpWLvZ/sFbzdHgz3/CmOA=", "user"=>{"name"=>"OICIRUAM", "email"=>"OR@g.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "birthday(1i)"=>"1922", "birthday(2i)"=>"1", "birthday(3i)"=>"15", "gender"=>"Mujer"}, "commit"=>"Enviar"}
+  [1m[36m (4.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (13.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'or@g.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (95.9ms)
+Completed 200 OK in 1251ms (Views: 633.3ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 02:40:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:58 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:58 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-15 02:40:59 -0600
+
+
+Started POST "/users" for 127.0.0.1 at 2014-01-15 02:41:12 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"anqyOZhRSUerjOtCXGcqR6ZpWLvZ/sFbzdHgz3/CmOA=", "user"=>{"name"=>"OICIRUAM", "email"=>"or@g.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "birthday(1i)"=>"1922", "birthday(2i)"=>"1", "birthday(3i)"=>"15", "gender"=>"Mujer"}, "commit"=>"Enviar"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'or@g.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (52.3ms)[0m  INSERT INTO "users" ("birthday", "created_at", "email", "encrypted_password", "gender", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["birthday", Sun, 15 Jan 1922 00:00:00 UTC +00:00], ["created_at", Wed, 15 Jan 2014 08:41:12 UTC +00:00], ["email", "or@g.com"], ["encrypted_password", "$2a$10$AUKpyykcq3dieb/fyEb4n.Nj9RTKz/xH9j5ugux/M4PLXSQUp7CPu"], ["gender", "Mujer"], ["name", "OICIRUAM"], ["updated_at", Wed, 15 Jan 2014 08:41:12 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `last_sign_in_ip`
+Binary data inserted for `string` type on column `current_sign_in_ip`
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 6[0m  [["last_sign_in_at", Wed, 15 Jan 2014 08:41:12 UTC +00:00], ["current_sign_in_at", Wed, 15 Jan 2014 08:41:12 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Wed, 15 Jan 2014 08:41:12 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 155ms (ActiveRecord: 56.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:41:12 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 6 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 100ms (Views: 94.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/devicesa.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/001.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-15 02:41:13 -0600
