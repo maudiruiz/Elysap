@@ -7,6 +7,9 @@
 
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "bootstrap" %>
+  <%= javascript_include_tag "elysa" %>
+
+
 
   <%= csrf_meta_tags %>
 </head>
@@ -68,12 +71,12 @@
 
                 </div>
               </a>
-              <a href="#blog">
+              <a href="#">
                 <div class="col-lg-2 grey2 men1 nav1">
 
                 </div>
               </a>
-              <a href="#regis">
+              <a href="#">
                 <div class="col-lg-2 col-md-offset-6 greenback men1 nav1">
 
                 </div>
@@ -87,19 +90,19 @@
         <div class="container "> 
         <div class="row menpill">
               <a href="#como">
-                <div class="col-lg-2  men1 nav1">
+                <div class="col-lg-2  men1 nav1 linkmen">
                   ¿Cómo funciona?
                 </div>
               </a>
 
               <%= link_to 'http://elysaco.tumblr.com/' do %>
-                 <div class="col-lg-2  men1 nav1">
+                 <div class="col-lg-2  men1 nav1 linkmen">
                     Blog
                   </div>
               <% end %>
 
-
-                <div class="col-lg-2 col-md-offset-6  men1 nav1 pointer" data-toggle="modal" data-target="#myModal">
+ 
+                <div class="col-lg-2 col-md-offset-6  men1 nav1 pointer linkmen" data-toggle="modal" data-target="#myModal">
                   Registrate
                 </div>
             </div>
@@ -127,29 +130,43 @@
         <h4 class="modal-title" id="myModalLabel"><%= image_tag("/assets/012.png") %></h4>
       </div>
       <div class="modal-body">
+          <%= link_to "Registrarme con Facebook",user_omniauth_authorize_path(:facebook, :zipcode=>'12345'), :class=> "btn btn-lg btn-block btn-facebook " %>
+          <hr>
 
-      <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
-        <%= devise_error_messages! %>
-        <%= link_to "Registrarme con Facebook",user_omniauth_authorize_path(:facebook, :zipcode=>'12345'), :class=> "btn btn-lg btn-block btn-facebook " %>
+          <div id ="formregistro" class="hide">
+            <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+              <%= devise_error_messages! %>
 
-        <div><%= f.label :email %><br />
-        <%= f.email_field :email, :autofocus => true, :class => "form-control" %></div>
+              <div><%= f.label :email %><br />
+              <%= f.email_field :email, :autofocus => true, :class => "form-control" %></div>
 
-        <div><%= f.label :password %><br />
-        <%= f.password_field :password, :class => "form-control" %></div>
+              <div><%= f.label :password %><br />
+              <%= f.password_field :password, :class => "form-control" %></div>
 
-        <div><%= f.label :password_confirmation %><br />
-        <%= f.password_field :password_confirmation , :class => "form-control"%></div>
+              <div><%= f.label :password_confirmation %><br />
+              <%= f.password_field :password_confirmation , :class => "form-control"%></div>
 
-        <div></div>
+              <%= f.submit "Enviar", :class=> "btn btn-primary" %>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              <% end %>  
+          </div>
       </div>
+      
+      <div id="formregistro" onClick="showregistro();" class="text-center">
+        Regístrate con tu correo electrónico.
+      </div>
+
       <div class="modal-footer">
-        <%= f.submit "Enviar", :class=> "btn btn-primary" %>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        <% end %>      
+       
+        <div class="conditions text-center">
+          Al registrarte aceptas nuestros términos y condiciones.
+        </div>   
 
       </div>
+      
+
     </div><!-- /.modal-content -->
+
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 

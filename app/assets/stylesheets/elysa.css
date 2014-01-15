@@ -111,10 +111,9 @@ h1{
 
 }
 .selling{
-  color:#83d6d3;
   font-weight: 300;
   font-size: 18px;
-  padding:100px;
+  
 }
 .greensubs{
 
@@ -215,4 +214,74 @@ h1{
 }
 .pointer{
   cursor: pointer;
+}
+.conditions{
+  padding: 20px;
+  font-size: 12px;
+}
+.iconsell{
+  width: 80px;
+  margin: 20px;
+}
+.whiteback{
+    padding: 30px;
+
+}
+.anydevice{
+  height: 100px;
+  margin-top: -70px;
+
+}
+.anydevice1{
+  height: 30px;
+  background-color: #7c8a91 !important ; 
+  margin-top: -100px;
+  color: white;
+  font-size: 14px;
+
+
+}
+.greywo{
+    background-color: #f9f9f9 !important;
+
+}
+
+.greyhard{
+  background-color: #7c8a91 !important;
+
+}
+.precio{
+  font-weight: 100;
+}
+.precio b{
+    font-weight: 200;
+
+}
+.preciorosa{
+  color: white;
+  font-size: 14px;
+  padding-top: 50px;
+}
+.padding30{
+  padding-top: 30px;
+}
+.condensedhigh{
+  font-size: 80px;
+  font-weight: 100;
+  color: white;
+
+}
+.lhcondensed{
+  line-height: 40px;
+}
+.condensedlow{
+  font-size: 25px;
+   font-weight: 100;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .linkmen {
+    margin-top: 10px;
+  }
 }
