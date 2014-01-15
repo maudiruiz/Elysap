@@ -280,12 +280,15 @@ h1{
   color: white;
 }
 .registcorreo{
-text-decoration: underline;
-cursor: pointer;
+
 }
 
 
-
+select.date-select {
+width: 32% !important;
+float: right;
+margin-left: 3px;
+}
 
 
 @media (max-width: 992px) {

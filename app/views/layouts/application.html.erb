@@ -176,36 +176,50 @@
             <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
               <%= devise_error_messages! %>
 
-              <div><%= f.label :name %><br />
+              <div><%= f.label :Nombre %><br />
               <%= f.text_field :name,  :autofocus => true, :class => "form-control" , :required => true%></div>
 
               <div><%= f.label :Email %><br />
               <%= f.email_field :email, :class => "form-control" , :required => true%></div>
 
               <div><%= f.label :Contraseña %><br />
-              <%= f.password_field :password, :class => "form-control" , :required => true%></div>
+              <%= f.password_field :password, :class => "form-control" , :required => true %></div>
 
               <div><%= f.label :Confirma_tu_contraseña %><br />
               <%= f.password_field :password_confirmation , :class => "form-control", :required => true%></div>
 
-               <div><%= f.label :birthday %><br />
-              <%= f.date_select :birthday,:start_year => 1920, :class => "form-control date" , :required => true%></div>
+              <div><%= f.label :Código_postal %><br />
+                <%= f.number_field :zipcode , :class => "form-control",  :maxlength => 5, :required => true  %>
+              </div>
 
-              <div><%= f.label :gender %><br />
-              <%= f.select :gender, options_for_select(%w[Hombre Mujer]) , :required => true%></div>
+        
+              <div><%= f.label :Género %><br />
+                <%= f.select(:gender, ['Hombre', 'Mujer'], {}, { :class => 'form-control', :required => true}) %>
+              </div>
+                       </br>
 
-            </br>
+              <div><%= f.label :Fecha_de_nacimiento %><br />
+              <%= f.date_select :birthday, { :order => [:year, :month, :day], :use_month_names => ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre','Diciembre'], :start_year  => 1920, :end_year => 2000 , :required => true}, {:class => "form-control date-select", :required => true} %>
 
-              <%= f.submit "Enviar", :class=> "btn btn-primary" %>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              </div>
+
+             </br>
+
+             </br>
+             </br>
+
+
+
+
+              <%= f.submit " Enviar ", :class=> "btn btn-primary btn-block btn-lg" %>
+         
               <% end %>  
           </div>
+           <button type="button" id="divregistro" onClick="showregistro();"  class="btn btn-primary btn-block btn-lg" >Regístrate con tu correo </button>
+      
       </div>
       
-      <div id="formregistro" onClick="showregistro();" class="registcorreo text-center">
-        Regístrate con tu correo electrónico.
-      </div>
-      </br>
+            
 
       <div class="modal-footer">
        
