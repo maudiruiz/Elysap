@@ -115,11 +115,50 @@
 
 <%= yield %>
 
+
+      <div class="jumbotron text-left greenlight">
+
+        <div class="container"> 
+        <div class="row">
+          <div class="col-lg-3">
+
+            Blog</br>
+            Cómo Funciona</br>
+            Precios</br>
+            Suscribe a un Familiar</br>
+            Regístrate</br>
+            Contacto</br>
+            </br>
+
+          </div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
 </div> <!-- /container full -->
 
 
 </body>
 </html>
+
+
+
+<div id="user_nav">
+  <% if user_signed_in? %>
+    Signed in as <%= current_user.email %>. Not you?
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %></br>
+        <%= current_user.inspect %>
+  <% else %>
+    <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
+    <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+
+  <% end %>
+</div>
+
 
 <!-- Modal -->
 <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -129,22 +168,33 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title" id="myModalLabel"><%= image_tag("/assets/012.png") %></h4>
       </div>
-      <div class="modal-body">
-          <%= link_to "Registrarme con Facebook",user_omniauth_authorize_path(:facebook, :zipcode=>'12345'), :class=> "btn btn-lg btn-block btn-facebook " %>
+      <div class="modal-body ">
+          <%= link_to "Registrate con Facebook",user_omniauth_authorize_path(:facebook, :zipcode=>'12345'), :class=> "btn btn-lg btn-block btn-facebook " %> 
           <hr>
 
           <div id ="formregistro" class="hide">
             <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
               <%= devise_error_messages! %>
 
-              <div><%= f.label :email %><br />
-              <%= f.email_field :email, :autofocus => true, :class => "form-control" %></div>
+              <div><%= f.label :name %><br />
+              <%= f.text_field :name,  :autofocus => true, :class => "form-control" , :required => true%></div>
 
-              <div><%= f.label :password %><br />
-              <%= f.password_field :password, :class => "form-control" %></div>
+              <div><%= f.label :Email %><br />
+              <%= f.email_field :email, :class => "form-control" , :required => true%></div>
 
-              <div><%= f.label :password_confirmation %><br />
-              <%= f.password_field :password_confirmation , :class => "form-control"%></div>
+              <div><%= f.label :Contraseña %><br />
+              <%= f.password_field :password, :class => "form-control" , :required => true%></div>
+
+              <div><%= f.label :Confirma_tu_contraseña %><br />
+              <%= f.password_field :password_confirmation , :class => "form-control", :required => true%></div>
+
+               <div><%= f.label :birthday %><br />
+              <%= f.date_select :birthday,:start_year => 1920, :class => "form-control date" , :required => true%></div>
+
+              <div><%= f.label :gender %><br />
+              <%= f.select :gender, options_for_select(%w[Hombre Mujer]) , :required => true%></div>
+
+            </br>
 
               <%= f.submit "Enviar", :class=> "btn btn-primary" %>
               <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -152,9 +202,10 @@
           </div>
       </div>
       
-      <div id="formregistro" onClick="showregistro();" class="text-center">
+      <div id="formregistro" onClick="showregistro();" class="registcorreo text-center">
         Regístrate con tu correo electrónico.
       </div>
+      </br>
 
       <div class="modal-footer">
        
