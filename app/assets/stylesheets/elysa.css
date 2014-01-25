@@ -32,8 +32,8 @@
 
   background-position: right bottom;
   vertical-align: top;
-  padding-top: 170px;
-    padding-bottom: 170px;
+  padding-top: 130px;
+  padding-bottom: 150px;
 
 
 }
@@ -47,7 +47,7 @@
 }
 .grey{
   background-color: #f9f9f9 !important;
-  padding: 30px;
+
 
 }
 .white{
@@ -71,7 +71,7 @@
   font-weight: 500;
 }
 .sub-dos{
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -158,6 +158,12 @@ h1{
   font-size: 14px;
   padding-right: 150px !important; 
 }
+.minicondensed{
+  line-height: 10px;
+  font-weight: 100;
+  font-size: 24px;
+
+}
 .logo{
   background-image: url('assets/012.png');
   width: 100px;
@@ -204,6 +210,14 @@ h1{
 .registro{
   width:300px;
 }
+.modalvideo{
+  width: 850px;
+
+}
+.aire30{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .btn-facebook{
   background-color: #456091 !important;
   border-color: #456091 !important;
@@ -220,7 +234,6 @@ h1{
   font-size: 12px;
 }
 .iconsell{
-  width: 80px;
   margin: 20px;
 }
 .whiteback{
@@ -282,7 +295,12 @@ h1{
 .registcorreo{
 
 }
-
+.interlineado{
+  letter-spacing: 1px;
+}
+.nopadding{
+  padding: 0;
+}
 
 select.date-select {
 width: 32% !important;
@@ -290,7 +308,16 @@ float: right;
 margin-left: 3px;
 }
 
-
+.playerback{
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.playbutton{
+  margin-top: -45px;
+}
+.textoazul{
+  color:#37535f;
+}
 @media (max-width: 992px) {
   .linkmen {
     margin-top: 10px;

@@ -10,16 +10,27 @@
 
       <div class="jumbotron text-center">
         <div class="container text-left back-doctores ">
-          <h1 class="green">Humanos <b>cuidando personas</b></h1>
+          <h1 class="green">Atención médica <b> ilimitada.</b></h1>
 
-          <p class="lead">Suscripción médica ilimitada, personal, y humana, en la comidad de tu casa.</p>
+          <p class="lead">Personal, y humana, en la comidad de tu casa.</p>
 
             <p>              
-              <button type="button"  class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Súscribete</button>
+              <button type="button"  class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Regístrate</button>
             </p>
 
         </div>
+           
       </div>
+
+         <div class="jumbotron text-center playerback">
+
+                <div class="container text-center">
+                     <div class="col-lg-12 " data-toggle="modal" data-target="#myModalVideo">
+                        <%= image_tag ("/assets/play.png"), :class=> "playbutton"%>
+ 
+                      </div>
+                </div>
+              </div>
 
       <div class="jumbotron darkgrey">
         <div class="container"> 
@@ -41,38 +52,38 @@
       </div>
 
       <div class="jumbotron whiteback">
-        <div class="container"> 
+        <div class="container aire30"> 
         <div class="row ">
-          <div class="col-lg-4">
+          <div class="col-lg-4 textoazul">
 
-            <h4>Visitas y Consultas</h4>
+            <h4 class="minicondensed">Visitas y Consultas</h4>
             <h5 class="sub-dos">Ilimitadas</h5>
              <%= image_tag ("/assets/devices.png"), :class=> "iconsell"%>
 
-            <p>Ingresa a nuestra plataforma, solicita un profesional e Inmediatamente sabrás quién y en cuánto tiempo atenderá tu llamado. Sin letras chiquitas ni "peros".</p>
+            <p>Ingresa a nuestra plataforma, solicita un profesional e Inmediatamente sabrás quién y en cuánto tiempo atenderá tu llamado.</p>
 
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 textoazul">
 
-            <h4>Coaching Nutricional</h4>
+            <h4 class="minicondensed">Coaching Nutricional</h4>
             <h5 class="sub-dos">A la medida.</h5>
 
              <%= image_tag ("/assets/manzana.png"), :class=> "iconsell" %>
 
-            <p>Mejorar tu salud inicia con tener un buen plan nutricional, nutros expertos crearán un plan a la medida de tus necesidades. </p>
+            <p>Mejorar tu salud inicia con tener un buen plan nutricional, nuestros expertos crearán un plan a la medida de tus necesidades. </p>
 
 
           </div>
-           <div class="col-lg-4">
+           <div class="col-lg-4 textoazul">
 
-            <h4>Solo los mejores</h4>
+            <h4 class="minicondensed">Solo los mejores</h4>
             <h5 class="sub-dos">No te dejamos solo</h5>
 
              <%= image_tag ("/assets/doctores.png"), :class=> "iconsell"%>
 
 
-            <p>Tu especialista estará pendiente de tu saludhasta que estés completamente recuperado. Consultalo cuando quieras, te visitará las veces que lo necesites.</p>
+            <p>Nuestros médicos estarán pendientes de tu salud hasta que estés completamente sano. Consúltalo cuando quieras, te visitará las veces que lo necesites.</p>
 
 
           </div>
@@ -84,10 +95,10 @@
         <div class="container text-left patientback">
 
 
-          <h1 class="green">Sólo <b>los mejores</b></h1>
+          <h1 class="green">Humanos <br/><b>cuidando personas.</b></h1>
           <p class="lead">Tu Salud en las mejores manos.</p>
    
-          <div class="col-lg-6 text-condensed">
+          <div class="col-lg-6 text-condensed nopadding">
             <br>
                      
             En Elysa reclutamos una nueva generación de profesionales con un enfoque humano y personalizado.</br></br>
@@ -151,37 +162,37 @@
       </div>
 
 
-      <div class="container whiteback"> 
+      <div class="container whiteback aire30"> 
       <div class="row">
         <div class="col-lg-3">
           <h4>Conserva tu salud</h4></br>
-          <%= image_tag ("/assets/004.png") %>
+          <%= image_tag ("/assets/004.png") , :class=> "iconsell"%>
 
           <p>Prevención antes de tratamiento.</p>
 
         </div>
 
         <div class="col-lg-3">
-          <h4>Tu tiempo, tan valioso como tu salud</h4></br>
-             <%= image_tag ("/assets/005.png")%>
+          <h4>Tiempo, valioso como tu salud</h4></br>
+             <%= image_tag ("/assets/005.png") , :class=> "iconsell"%>
 
-          <p>Atención en tus horarios, en tu casa u oficina.</p>
+          <p>Atención en tus horarios, en tu casa u oficina. Sin perder tiempo.</p>
 
 
         </div>
          <div class="col-lg-3">
           <h4>NO pagas consulta</h4></br>
-             <%= image_tag ("/assets/006.png")%>
+             <%= image_tag ("/assets/006.png"), :class=> "iconsell"%>
 
-          <p>Solicita un profesional todas las veces que lo necesites sin pagar más.</p>
+          <p>Solicita un profesional todas las veces que lo necesites sin pagar extra.</p>
 
 
         </div>
           <div class="col-lg-3">
           <h4>Sin preguntas ni requisitos.</h4></br>
-             <%= image_tag ("/assets/007.png")%>
+             <%= image_tag ("/assets/007.png"), :class=> "iconsell"%>
 
-          <p>La suscripción a Elysa es para cualquiera, sin importar tu condición..</p>
+          <p>Recibe atención médica siempre que lo necesites, sin ningún pero.</p>
 
 
         </div>
@@ -190,48 +201,8 @@
       </div>
   
  
-      <div class="jumbotron text-center grey">
-        <div class="container text-left">
-        
-          <h1 class="green">Tu salud <b>en la palma de tu mano</b></h1>
 
-          <p class="lead">Un Profesional en tu puerta siempre que lo necesites. Sólo basta un toque en tu pantalla.</p>
-          <div class="col-lg-4">
-             <%= image_tag ("/assets/iphone.png")%>
-          </div>
-          <div class="col-lg-8 selling">
-            <br>
-                - Desde cualquier dispositivo.<br>
-                - Consultas.<br>
-                - Check Ups Integrales.<br>
-                - Coaching Nutricional. <br>
-                - Citas en menos de 2 horas.<br>
 
-                - Atención en tu casa o trabajo registrados.<br>
-
-                - Resumen de consulta accesible desde donde sea.<br>
-                - Historial médico a partir de inscripción <br>
-
-          </div>
-        </div>
-                  </br></br>
-
-      </div>
-
-        <div class="jumbotron greywo">
-          <div class="container"> 
-            <div class="row ">
-              <div class="col-lg-4  col-md-offset-8 anydevice1 text-center">
-                Disponible desde tu celular
-              </div>
-            </div>
-            <div class="row ">
-              <div class="col-lg-4 greenback col-md-offset-8 anydevice text-center">
-                <%= image_tag ("/assets/devicesa.png")%>
-              </div>
-            </div>
-          </div>
-        </div>
 
       
 
@@ -255,15 +226,14 @@
         </div>
       </div>
 
-
-       <div class="jumbotron grey">
-        <div class="container"> 
-        <div class="row ">
+<div class="jumbotron grey ">
+        <div class="container "> 
+        <div class="row aire30">
           <div class="col-lg-4">
 
-            <h4>Prevención</h4>
+            <h4 class="minicondensed">Prevención</h4>
             <h5 class="sub-dos">Conservamos tu salud</h5>
-             <%= image_tag ("/assets/001.png")%>
+             <%= image_tag ("/assets/manzana.png") , :class=> "iconsell"%>
 
             <p>El 70% de las enfermedades pueden prevenirse con hábitos apropiados y chequeos regulares.</p>
 
@@ -271,10 +241,10 @@
 
           <div class="col-lg-4">
 
-            <h4>Atención</h4>
+            <h4 class="minicondensed">Atención</h4>
             <h5 class="sub-dos">Cuidamos tu salud</h5>
 
-             <%= image_tag ("/assets/002.png")%>
+             <%= image_tag ("/assets/002.png"), :class=> "iconsell"%>
 
             <p>Acceso a consultas médicas ilimitadas de atención primaria en la comodidad de tu casa, justo como si fueras al consultorio.</p>
 
@@ -282,10 +252,10 @@
           </div>
            <div class="col-lg-4">
 
-            <h4>Canalización</h4>
+            <h4 class="minicondensed">Canalización</h4>
             <h5 class="sub-dos">No te dejamos solo</h5>
 
-             <%= image_tag ("/assets/003.png")%>
+             <%= image_tag ("/assets/003.png"), :class=> "iconsell"%>
 
             <p>En caso de tener que ser canalizado podrá ser con alguno de nuestros médicos y centros de salud verificados para garantizarte la mejor atención.</p>
 
@@ -293,7 +263,7 @@
           </div>
         </div>
         </div>
-      </div>
+      </div> 
 
 
 
@@ -304,7 +274,7 @@
         <div class="container"> 
             <div class="row ">
                 <div class="col-lg-8">
-                  </br><h1 class="white padding30">Obten el servicio <b>por sólo: </b></h1>
+                  </br><h1 class="white padding30 interlineado">Obtén el servicio <b>por sólo: </b></h1>
                 </div>
                 <div class="col-lg-4 pinkback preciorosa padding30 ">
                   <div class="condensedhigh lhcondensed"></br></br>$299 </div>
@@ -326,22 +296,14 @@
         <div class="container text-left ">
           <div class="col-lg-8">
 
-          </br><h1 class="white">Suscríbete <b>a tu salud</b></h1>
+          </br><h1 class="white interlineado">Suscríbete <b>a tu salud</b></h1>
           <p class="lead">Pre-Regístrate hoy y sé de los primeros con acceso a una suscripción.</p>
         </div>
           <div class="col-lg-3">
-          <!--   <div class="input-group">
-              <span class="input-group-addon">@</span>
-              <input type="text" class="form-control" placeholder="ingresa tu e-mail">
-            </div> --></br>
+            </br>
             <hr>
                 <button type="button" data-toggle="modal" data-target="#myModal" style="width:100%" class="btn btn-primary btn-lg">Súscribete</button>
             <hr>
-<!--             <a href=" <%=  user_omniauth_authorize_path(:facebook) %>">
-
-            <button type="button" style="width:100%" class="btn btn-primary btn-lg">Ingresar con FB.</button>
-            </a> -->
-
 
 
           </div>
@@ -353,6 +315,33 @@
         </div>
       </div>
 
+
+
+<!-- Modal -->
+<div class="modal fade " id="myModalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modalvideo">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"><%= image_tag("/assets/012.png") %></h4>
+      </div>
+      <div class="modal-body text-center">
+        <iframe src="https://docs.google.com/file/d/0BzITHmmFFVFDdWV2dzJudnVZdm8/preview" width="800" height="480"></iframe>
+      
+      </div>
+      
+            
+
+      <div class="modal-footer">
+       
+
+      </div>
+      
+
+    </div><!-- /.modal-content -->
+
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
 
