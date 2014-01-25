@@ -7,3 +7,6 @@ function showregistro(){
   $("#formregistro").toggleClass( "show" );
     $("#divregistro").hide();
 }
+
+
+

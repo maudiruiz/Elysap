@@ -301,6 +301,24 @@ h1{
 .nopadding{
   padding: 0;
 }
+.slidetext{
+  color: white;
+  width: 360px;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.text30{
+  font-size: 30px;
+}
+.slidergrey{
+  background-color: #6d797f;
+  height: 15px;
+}
+
+
+
+
 
 select.date-select {
 width: 32% !important;
