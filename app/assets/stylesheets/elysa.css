@@ -316,7 +316,7 @@ margin-left: 3px;
   margin-top: -45px;
 }
 .textoazul{
-  color:#37535f;
+  color:#37535f !important;
 }
 @media (max-width: 992px) {
   .linkmen {

@@ -53231,3 +53231,484 @@ Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-25 12:17:24 -0600
 
 
 Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-25 12:17:24 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (16.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 85ms (Views: 67.3ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:24:06 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-25 12:24:07 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-25 12:24:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:24:10 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:24:11 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:24:11 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:24:11 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:24:11 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:24:11 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:24:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:24:12 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:24:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:24:29 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:29 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:29 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:29 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-25 12:24:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:24:50 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:24:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:24:57 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (12.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 32ms (Views: 18.9ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-25 12:25:02 -0600
