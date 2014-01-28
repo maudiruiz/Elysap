@@ -27,7 +27,7 @@
   padding-top: 170px;
 }
 .patientback{
-    background-image: url('/assets/009.png');
+  background-image: url('/assets/009.png');
   background-repeat: no-repeat;
 
   background-position: right bottom;
@@ -341,16 +341,23 @@ margin-left: 3px;
   }
 }
 @media only screen and(min-device-width:320px) and (max-device-width:568px){
-.container{
-  text-align: center;
-}
-
-.mobilepadding{
-  padding-top: 40px !important;
-}
-.modalvideo{
-  width: 98%;
-}
+  .container{
+    text-align: center;
+  }
+  .back-doctores{
+    background: none;
+    padding-top: 50px;
+    height: 400px;
+  }
+  .patientback{
+    background: none !important;
+  }
+  .mobilepadding{
+    padding-top: 40px !important;
+  }
+  .modalvideo{
+    width: 98%;
+  }
 
 }
 
@@ -371,5 +378,6 @@ margin-left: 3px;
     width: 90%;
     height: 90%;
     margin-left: 5%;
+    margin-top: 5%;
 }
 

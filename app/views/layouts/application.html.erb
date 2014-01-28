@@ -16,6 +16,9 @@
 
 
   <%= csrf_meta_tags %>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 
@@ -76,12 +79,12 @@
                 </div>
               </a>
               <a href="#">
-                <div class="col-lg-2 grey2 men1 nav1">
+                <div class="col-lg-2 grey2 men1 nav1 hidden-xs">
 
                 </div>
               </a>
               <a href="#">
-                <div class="col-lg-2 col-md-offset-6 greenback men1 nav1">
+                <div class="col-lg-2 col-md-offset-6 greenback men1 nav1 hidden-xs">
 
                 </div>
               </a>
@@ -93,20 +96,15 @@
       <div class="jumbotron ">
         <div class="container "> 
         <div class="row menpill">
-              <a href="#como">
-                <div class="col-lg-2  men1 nav1 linkmen">
-                  ¿Cómo funciona?
-                </div>
-              </a>
 
               <%= link_to 'http://elysaco.tumblr.com/' do %>
-                 <div class="col-lg-2  men1 nav1 linkmen">
+                 <div class="col-lg-2  men1 nav1 linkmen  hidden-xs">
                     Blog
                   </div>
               <% end %>
 
  
-                <div class="col-lg-2 col-md-offset-6  men1 nav1 pointer linkmen" data-toggle="modal" data-target="#myModal">
+                <div class="col-lg-2 col-md-offset-6  men1 nav1 pointer linkmen  hidden-xs" data-toggle="modal" data-target="#myModal">
                   Registrate
                 </div>
             </div>
