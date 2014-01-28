@@ -72525,3 +72525,1729 @@ Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:46:52 -0600
 
 
 Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:46:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:55:01 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 120ms (Views: 119.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (65.8ms)
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:55:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (17.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 38ms (Views: 19.4ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:32 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.8ms)
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/fs.spinner.gif" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/assets/fs.pager.png" for 127.0.0.1 at 2014-01-27 20:55:33 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (57.0ms)
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:55:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (33.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 13 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 58ms (Views: 23.4ms | ActiveRecord: 33.2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:56:10 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (56.2ms)
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:56:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:58:21 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (340.6ms)
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:58:22 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:58:22 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:58:22 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:58:22 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:58:22 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:58:48 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.7ms)
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:58:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:59:02 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.1ms)
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:59:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:59:10 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (40.4ms)
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:59:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 76ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.9ms)
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:59:17 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:29 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (42.7ms)
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:59:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.5ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (40.8ms)
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:59:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.2ms)
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 20:59:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+Processing by DisplayController#index as HTML
+  Rendered display/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/iPhone.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+ActionController::RoutingError (No route matches [GET] "/assets/iPhone.png"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/maudiruiz/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/maudiruiz/.rvm/gems/ruby-2.0.0-p353@global/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.3ms)
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-27 21:00:01 -0600
