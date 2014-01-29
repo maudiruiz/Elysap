@@ -100,9 +100,19 @@
               <% end %>
 
  
-                <div class="col-lg-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs" data-toggle="modal" data-target="#myModal">
-                  Registrate
-                </div>
+     
+
+                  <% if user_signed_in? %>
+                      <div class="col-lg-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs">¡Hola <%= current_user.name %>! 
+                       <%= link_to "   >Salir", destroy_user_session_path, :method => :delete %></br>
+
+                      </div>
+                  <% else %>
+                     <div class="col-lg-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs" data-toggle="modal" data-target="#myModal">
+                            Registrate
+                          </div>
+
+                  <% end %>
             </div>
           </div>
         </div>
@@ -119,14 +129,29 @@
         <div class="container"> 
         <div class="row">
           <div class="col-lg-3">
+          <%= link_to "Blog", 'http://elysaco.tumblr.com/' %></br>
 
-            Blog</br>
-            Cómo Funciona</br>
-            Precios</br>
-            Suscribe a un Familiar</br>
-            Regístrate</br>
+           <% if !user_signed_in? %>
+          <div class="pointer " data-toggle="modal" data-target="#myModal">
+                  Registra a un familiar
+                </div>
+       
+          <div class="pointer " data-toggle="modal" data-target="#myModal">
+                  Registrate
+                </div>
+                <% end %>
             Contacto</br>
             </br>
+
+          </div>
+          <div class="col-lg-3 col-md-offset-6 text-right">
+
+           <%= link_to image_tag("/assets/logofooter.png"), root_path %></br>
+           <%= link_to image_tag("/assets/s1.png"), "http://twitter.com" %>
+           <%= link_to image_tag("/assets/s2.png"), "http://twitter.com" %>
+           <%= link_to image_tag("/assets/s3.png"), "http://twitter.com" %></br>
+            Elysa servicios S.A.P.I de C.V</br>
+
 
           </div>
 
@@ -144,10 +169,10 @@
 </html>
 
 
-
+<!-- 
 <div id="user_nav">
   <% if user_signed_in? %>
-    Signed in as <%= current_user.email %>. Not you?
+    Signed in as <%= current_user.name %>. Not you?
     <%= link_to "Sign out", destroy_user_session_path, :method => :delete %></br>
         <%= current_user.inspect %>
   <% else %>
@@ -155,7 +180,7 @@
     <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
 
   <% end %>
-</div>
+</div> -->
 
 
 <!-- Modal -->

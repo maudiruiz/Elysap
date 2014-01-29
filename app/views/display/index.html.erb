@@ -13,10 +13,12 @@
           <h1 class="textoazul">Atención médica <b> ilimitada.</b></h1>
 
           <p class="lead">personal, y humana, en la comidad de tu casa.</p>
- 
+            <% if !user_signed_in? %>
+
             <p>              
               <button type="button"  class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Regístrate</button>
             </p>
+            <% end %>
 
         </div>
            
@@ -434,10 +436,12 @@
             </div>
               <div class="col-lg-3">
                 </br>
+              <% if !user_signed_in? %>
+
                 <hr>
                     <button type="button" data-toggle="modal" data-target="#myModal" style="width:100%" class="btn btn-primary btn-lg">Súscribete</button>
                 <hr>
-
+              <% end %>
 
               </div>
 
