@@ -86096,3 +86096,138 @@ Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-01-29 01:03:36 -0600
 
 
 Started GET "/assets/fs.pager.png" for 127.0.0.1 at 2014-01-29 01:03:36 -0600
+
+
+Started GET "/users/auth/facebook?zipcode=12345" for 127.0.0.1 at 2014-01-29 01:10:19 -0600
+
+
+Started GET "/users/auth/facebook/callback?code=AQBDi7xcSBn43vmb_4UyhZOCfGiraQVZcTnB2xGNp2Bk3a3D11brfMoMnbDBZf-bzQ4SxJK5vvZHRQxxaZ71TLJbHsRJb8ugA4AgEbFQQbM3SAAuj25GF-p2eT57DglKGJp6jL5sfOBwwKVLFJQi2wkr-dXa7dB7O0UCmy9Mj3XbDQ92LD_E7kvtvDDhzU3jkK4xbVmEtsAtug2d3Fy-eu_avNkbKmgzIPstAkXNhy-xAJgG2TIeSQbjJofEzNg4jcZjCrgKdjXOn3_2VZBXNf_3K4EFxp9gWJno6O1r3IC3OFH9gwigGO4Oo09kJG_NrxU&state=cf5012320f6d2237ede90014586780a3d633b2559a89f2cd" for 127.0.0.1 at 2014-01-29 01:10:20 -0600
+Processing by Users::OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQBDi7xcSBn43vmb_4UyhZOCfGiraQVZcTnB2xGNp2Bk3a3D11brfMoMnbDBZf-bzQ4SxJK5vvZHRQxxaZ71TLJbHsRJb8ugA4AgEbFQQbM3SAAuj25GF-p2eT57DglKGJp6jL5sfOBwwKVLFJQi2wkr-dXa7dB7O0UCmy9Mj3XbDQ92LD_E7kvtvDDhzU3jkK4xbVmEtsAtug2d3Fy-eu_avNkbKmgzIPstAkXNhy-xAJgG2TIeSQbjJofEzNg4jcZjCrgKdjXOn3_2VZBXNf_3K4EFxp9gWJno6O1r3IC3OFH9gwigGO4Oo09kJG_NrxU", "state"=>"cf5012320f6d2237ede90014586780a3d633b2559a89f2cd"}
+  [1m[35mUser Load (109.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '698860797' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (62.1ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", Wed, 29 Jan 2014 07:10:22 UTC +00:00], ["sign_in_count", 2], ["updated_at", Wed, 29 Jan 2014 07:10:22 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 201ms (ActiveRecord: 172.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-29 01:10:22 -0600
+Processing by DisplayController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered display/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 170ms (Views: 166.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/s1.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/s2.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/logofooter.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/s3.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/fs.spinner.gif" for 127.0.0.1 at 2014-01-29 01:10:26 -0600
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-01-29 01:10:28 -0600
+
+
+Started GET "/assets/fs.pager.png" for 127.0.0.1 at 2014-01-29 01:10:28 -0600
