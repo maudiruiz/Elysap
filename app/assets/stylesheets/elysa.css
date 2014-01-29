@@ -346,6 +346,9 @@ margin-left: 3px;
   .container{
     text-align: center;
   }
+  .centeronmobile{
+    text-align: center !important;
+  }
   .back-doctores{
     background: none;
     padding-top: 50px;
