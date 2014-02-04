@@ -25,7 +25,7 @@
 
 
                 <hr>
-                    <button onClick="openFbPopUp();" id="fbshare" type="button" data-target="#myModal" style="width:100%" class="btn btn-primary btn-lg btn-facebook">Compartir en Facebook.</button>
+                    <button onClick="openFbPopUp();" id="fbshare" type="button"  style="width:100%" class="btn btn-primary btn-lg btn-facebook">Compartir en Facebook.</button>
 
                 <hr>
 
@@ -39,15 +39,15 @@ function openFbPopUp() {
             method: 'feed',
             name: 'Elysa.co',
             link: 'https://elysa.co/',
-            picture: 'http://fbrell.com/f8.jpg',
+            picture: 'http://elysa.co/assets/200.jpg  ',
             caption: 'Atención médica ilimitada.',
             description: 'Elysa ofrece servicios médicos de calidad en la comodidad de tu casa por un precio súper bajo. Ingres y suscríbete a tu salud. '
           },
           function(response) {
             if (response && response.post_id) {
-              $('#fbshare').hide();
+              $('#fbshare').text('¡Listo!');
             } else {
-              alert('Post was not published.');
+              $('#fbshare').text('Inténtalo nuevamente.');
             }
           }
         );
