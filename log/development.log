@@ -105525,3 +105525,127 @@ Started GET "/assets/fs.spinner.gif" for 127.0.0.1 at 2014-02-04 02:08:56 -0600
 
 
 Started GET "/assets/fs.pager.png" for 127.0.0.1 at 2014-02-04 02:08:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-04 02:11:03 -0600
+Processing by DisplayController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered display/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/elysa.css?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/fractionslider.css?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/display.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/jquery.fractionslider.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/elysa.js?body=1" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/004.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/manzana.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/012.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/devices.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/play.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/doctores.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/005.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/006.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/iphones.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/007.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/App_1.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/App_2.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/App_4.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/002.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/App_3.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/logofooter.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/App_5.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/003.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/s1.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/s2.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/s3.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/fs.spinner.gif" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/010.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/009.png" for 127.0.0.1 at 2014-02-04 02:11:04 -0600
+
+
+Started GET "/assets/fs.pager.png" for 127.0.0.1 at 2014-02-04 02:11:05 -0600
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-02-04 02:11:05 -0600
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-02-04 02:11:05 -0600
