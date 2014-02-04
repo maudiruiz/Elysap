@@ -115,7 +115,7 @@
 
                   <% if user_signed_in? %>
                       <div class="col-lg-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs">¡Hola <%= current_user.name %>! 
-                       <%= link_to "   >Salir", destroy_user_session_path, :method => :delete %></br>
+                       <%= link_to "   Salir", destroy_user_session_path, :method => :delete %></br>
 
                       </div>
                   <% else %>
