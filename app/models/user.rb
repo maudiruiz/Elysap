@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
 
  
  # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :provider, :uid, :name, :gender, :birthday, :zipcode
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :provider, :uid, :name, :gender, :birthday, :zipcode, :hash_fb
 
   # attr_accessible :title, :body
 
@@ -21,6 +21,7 @@ class User < ActiveRecord::Base
 	                         gender:auth.extra.raw_info.gender,
 	                         birthday:auth.extra.raw_info.birthday,
 	                         email:auth.info.email,
+	                         hash_fb: auth.to_json,
 	                         password:Devise.friendly_token[0,20]
 	                         )
 	  end
