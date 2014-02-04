@@ -1,0 +1,63 @@
+<div class="jumbotron  text-center  ">
+    <div class="container text-left patientback">
+
+            </br>
+            <h1 class="green"><b>¡Bienvenido!</b></h1>
+            <p class="lead"> </br>Estamos trabajando para que tu experiencia sea <b>increíble.</b></br>Te avisaremos tan pronto estemos listos.
+
+            </br>
+            </br>
+            </br>
+
+    </div>
+
+</div>
+
+<div class="jumbotron text-center greensubs">
+      <div class="container text-left ">
+              <div class="col-lg-8">
+
+              </br><h1 class="white interlineado">Comparte <b>tu lugar</b></h1>
+              <p class="lead">¿Conoces a alguien que podría interesarle?.</br>Comparte nuestro servicio y sé de los primeros en acceder.</p> 
+            </div>
+              <div class="col-lg-3">
+                </br>
+
+
+                <hr>
+                    <button onClick="openFbPopUp();" id="fbshare" type="button" data-target="#myModal" style="width:100%" class="btn btn-primary btn-lg btn-facebook">Compartir en Facebook.</button>
+
+                <hr>
+
+          </div>
+      </div>
+</div>
+<script type="text/javascript">
+function openFbPopUp() {
+        FB.ui(
+          {
+            method: 'feed',
+            name: 'Elysa.co',
+            link: 'https://elysa.co/',
+            picture: 'http://fbrell.com/f8.jpg',
+            caption: 'Atención médica ilimitada.',
+            description: 'Elysa ofrece servicios médicos de calidad en la comodidad de tu casa por un precio súper bajo. Ingres y suscríbete a tu salud. '
+          },
+          function(response) {
+            if (response && response.post_id) {
+              $('#fbshare').hide();
+            } else {
+              alert('Post was not published.');
+            }
+          }
+        );
+    }
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=641238789248929";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

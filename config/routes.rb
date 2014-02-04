@@ -6,7 +6,9 @@ Myapp::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-root to: 'display#index'
+  root to: 'display#index'
+  get 'bienvenido' => 'display#bienvenido', :as => :bienvenido
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
