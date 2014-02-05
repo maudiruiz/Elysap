@@ -8,4 +8,8 @@ class DisplayController < ApplicationController
     end
 
   end
+  def usuarios
+    @users = User.all
+
+  end
 end
