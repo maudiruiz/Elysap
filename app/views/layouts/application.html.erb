@@ -49,22 +49,7 @@
         </div>
       </div>
       
-   <!--    <div class="navbar navbar-default">
-        <div class="container text-left">
 
-
-           <div class="navbar-header">
-            <a class="navbar-brand" href="#"><div class="logo"></div></a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">¿Cómo funciona?</a></li>
-              <li><a href="#">Precios</a></li>
-            </ul>
-          </div>
-        </div>
-      </div> -->
 
 
       <div class="jumbotron ">
@@ -90,12 +75,12 @@
             <div class="row ">
               <%= link_to 'http://elysaco.tumblr.com/' do %>
 
-                <div class="col-lg-2 grey2 men1 nav1 hidden-xs">
+                <div class="col-md-2 grey2 men1 nav1 hidden-xs">
 
                 </div>
               <% end %>
               <a href="#">
-                <div class="col-lg-2 col-md-offset-8 greenback men1 nav1 hidden-xs">
+                <div class="col-md-2 col-md-offset-8 greenback men1 nav1 hidden-xs">
 
                 </div>
               </a>
@@ -109,7 +94,7 @@
         <div class="row menpill">
 
               <%= link_to 'http://medium.com/@elysasalud' do %>
-                 <div class="col-lg-2  men1 nav1 linkmen  hidden-xs">
+                 <div class="col-md-2  men1 nav1 linkmen  hidden-xs">
                     Blog
                   </div>
               <% end %>
@@ -118,12 +103,12 @@
      
 
                   <% if user_signed_in? %>
-                      <div class="col-lg-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs">¡Hola <%= current_user.name %>! 
+                      <div class="col-md-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs">¡Hola <%= current_user.name %>! 
                        <%= link_to "   Salir", destroy_user_session_path, :method => :delete %></br>
 
                       </div>
                   <% else %>
-                     <div class="col-lg-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs" data-toggle="modal" data-target="#myModal">
+                     <div class="col-md-2 col-md-offset-8  men1 nav1 pointer linkmen  hidden-xs" data-toggle="modal" data-target="#myModal">
                             Registrate
                           </div>
 

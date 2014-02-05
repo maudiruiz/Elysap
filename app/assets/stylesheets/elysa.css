@@ -80,7 +80,7 @@ body{
 h1{
   font-weight: 100 !important;
 }
-.col-lg-4 p{
+.col-md-4 p{
   font-size: 13px;
 
 }
@@ -341,10 +341,33 @@ margin-left: 3px;
   .linkmen {
     margin-top: 10px;
   }
+
 }
+@media (max-width: 992px) {
+    .container{
+    text-align: center !important;
+  }
+
+  .patientback{
+    background: none !important;
+  }
+  .col-md-4{
+    padding: 30px;
+  }
+    .col-md-4 p{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .col-md-3{
+    padding: 30px;
+  }
+
+}
+
+
 @media only screen and(min-device-width:320px) and (max-device-width:568px){
   .container{
-    text-align: center;
+    text-align: center !important;
   }
   .centeronmobile{
     text-align: center ;

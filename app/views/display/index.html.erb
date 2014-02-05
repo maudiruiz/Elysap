@@ -10,13 +10,13 @@
 
       <div class="jumbotron text-center">
         <div class="container text-left back-doctores ">
-          <h1 class="textoazul">Atención médica <b> ilimitada.</b></h1>
+          <h1 class="textoazul">Atención médica <b> ilimitada,</b></h1>
 
-          <p class="lead">personal, y humana, en la comodidad de tu casa.</p>
+          <p class="lead">personal y humana, en la comodidad de tu casa.</p>
             <% if !user_signed_in? %>
 
             <p>              
-              <button type="button"  class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Regístrate</button>
+              <button type="button"  class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Pre-Regístrate</button>
             </p>
             <% end %>
 
@@ -56,7 +56,7 @@
       <div class="jumbotron whiteback">
         <div class="container aire30"> 
         <div class="row ">
-          <div class="col-lg-4 textoazul mobilepadding">
+          <div class="col-md-4 textoazul mobilepadding">
 
             <h4 class="minicondensed">Visitas y Consultas</h4>
             <h5 class="sub-dos">Ilimitadas</h5>
@@ -66,7 +66,7 @@
 
           </div>
 
-          <div class="col-lg-4 textoazul mobilepadding">
+          <div class="col-md-4 textoazul mobilepadding">
 
             <h4 class="minicondensed">Coaching Nutricional</h4>
             <h5 class="sub-dos">A la medida.</h5>
@@ -77,10 +77,10 @@
 
 
           </div>
-           <div class="col-lg-4 textoazul mobilepadding">
+           <div class="col-md-4 textoazul mobilepadding">
 
-            <h4 class="minicondensed">Solo los mejores</h4>
-            <h5 class="sub-dos">No te dejamos solo</h5>
+            <h4 class="minicondensed">Sólo los mejores</h4>
+            <h5 class="sub-dos">Te visitan a domicilio</h5>
 
              <%= image_tag ("/assets/doctores.png"), :class=> "iconsell "%>
 
@@ -100,12 +100,12 @@
           <h1 class="green">Humanos <br/><b>cuidando personas.</b></h1>
           <p class="lead">Tu Salud en las mejores manos.</p>
    
-          <div class="col-lg-6 text-condensed nopadding mobiletext">
+          <div class="col-md-4 text-condensed nopadding mobiletext">
             <br>
                      
             En Elysa reclutamos una nueva generación de profesionales con un enfoque humano y personalizado.</br></br>
 
-            A tu puerta además que un médico, llegará un amigo que se ocupará por manterte sano.
+            A tu puerta además de un médico, llegará un amigo que se ocupará por manterte sano.
           </div>
         </br>
 
@@ -166,7 +166,7 @@
 
       <div class="container whiteback aire30 "> 
       <div class="row">
-        <div class="col-lg-3 mobilepadding">
+        <div class="col-md-3 mobilepadding">
           <h4>Conserva tu salud</h4></br>
           <%= image_tag ("/assets/004.png") , :class=> "iconsell"%>
 
@@ -174,7 +174,7 @@
 
         </div>
 
-        <div class="col-lg-3 mobilepadding">
+        <div class="col-md-3 mobilepadding">
           <h4>Tiempo, valioso como tu salud</h4></br>
              <%= image_tag ("/assets/005.png") , :class=> "iconsell"%>
 
@@ -182,7 +182,7 @@
 
 
         </div>
-         <div class="col-lg-3 mobilepadding">
+         <div class="col-md-3 mobilepadding">
           <h4>NO pagas consulta</h4></br>
              <%= image_tag ("/assets/006.png"), :class=> "iconsell"%>
 
@@ -190,7 +190,7 @@
 
 
         </div>
-          <div class="col-lg-3 mobilepadding">
+          <div class="col-md-3 mobilepadding">
           <h4>Sin preguntas ni requisitos.</h4></br>
              <%= image_tag ("/assets/007.png"), :class=> "iconsell"%>
 
@@ -439,7 +439,7 @@
               <% if !user_signed_in? %>
 
                 <hr>
-                    <button type="button" data-toggle="modal" data-target="#myModal" style="width:100%" class="btn btn-primary btn-lg">Súscribete</button>
+                    <button type="button" data-toggle="modal" data-target="#myModal" style="width:100%" class="btn btn-primary btn-lg">Pre-regístrate</button>
                 <hr>
               <% end %>
 
