@@ -355,15 +355,19 @@ margin-left: 3px;
     padding: 30px;
   }
     .col-md-4 p{
-    padding-left: 200px;
-    padding-right: 200px;
+
   }
   .col-md-3{
     padding: 30px;
   }
 
 }
-
+@media (max-width: 980px) and (min-width:700px){
+    .col-md-4 p{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
 
 @media only screen and(min-device-width:320px) and (max-device-width:568px){
   .container{

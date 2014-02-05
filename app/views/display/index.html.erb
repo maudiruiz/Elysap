@@ -24,15 +24,6 @@
            
       </div>
 
-         <div class="jumbotron text-center playerback">
-
-                <div class="container text-center">
-                     <div class="col-lg-12 " data-toggle="modal" data-target="#myModalVideo">
-                        <%= image_tag ("/assets/play.png"), :class=> "playbutton"%>
- 
-                      </div>
-                </div>
-              </div>
 
       <div class="jumbotron darkgrey">
         <div class="container"> 
@@ -92,8 +83,38 @@
         </div>
         </div>
       </div>
+
+
+
+      <div class="jumbotron grey text-center ">
+        <div class="container text-left ">
+              <div class="col-md-6 text-condensed nopadding mobiletext">
+   <div class="hidden-xs">
+
+                </br></br></br>
+              </div></br>
+             <iframe width="560" height="315" src="//www.youtube.com/embed/7SHW2nCpsb0" frameborder="0" allowfullscreen></iframe>
+             </div>
+              <div class="col-md-6 " style="padding-left:80px;">         </br>  
+                <div class="hidden-xs">
+
+                </br></br>
+              </div>
+                       <h1 class="green">Conoce <b>más.</b></h1>
+                       <p >¿Cómo funciona? ¿Por qué elegirlo? ¿Qué incluye? </br>Todo en un par minutos.</p>
+              <div class="hidden-xs">
+                </br></br>
+                </br>
+              </div>
+              </br>
+
+              </div>
+
+        </div>
+
+      </div>
   
-       <div class="jumbotron grey text-center  ">
+       <div class="jumbotron  text-center  ">
         <div class="container text-left patientback">
 
 
@@ -103,42 +124,15 @@
           <div class="col-md-4 text-condensed nopadding mobiletext">
             <br>
                      
-            En Elysa reclutamos una nueva generación de profesionales con un enfoque humano y personalizado.</br></br>
+            En Elysa reclutamos una nueva generación de profesionales con un enfoque humano y personalizado.</br></br> Los mejores médicos trabajando para mejorar tu salud. 
 
-            A tu puerta además de un médico, llegará un amigo que se ocupará por manterte sano.
+  
           </div>
         </br>
 
         </div>
 
       </div>
-
-
-
-  
-
-<!-- 
-      <div class="jumbotron darkgrey">
-        <div class="container"> 
-            <div class="row ">
-              <div class="col-lg-3 grey1">
-
-              </div>
-              <div class="col-lg-3 grey2">
-
-              </div>
-
-               <div class="col-lg-3 grey1">
-
-              </div>
-              <div class="col-lg-3 grey2">
-
-              </div>
-            </div>
-
-        </div>
-      </div>
- -->
 
 
       <div class="jumbotron darkgrey">
@@ -350,7 +344,6 @@
 
 
 
-
 <!-- SlIDER -->
 
 
@@ -359,71 +352,6 @@
 
 
 
-
-
-    <div class="jumbotron grey ">
-            <div class="container "> 
-            <div class="row aire30">
-              <div class="col-lg-4 mobilepadding">
-
-                <h4 class="minicondensed">Prevención</h4>
-                <h5 class="sub-dos">Conservamos tu salud</h5>
-                 <%= image_tag ("/assets/manzana.png") , :class=> "iconsell"%>
-
-                <p>El 70% de las enfermedades pueden prevenirse con hábitos apropiados y chequeos regulares.</p>
-
-              </div>
-
-              <div class="col-lg-4 mobilepadding">
-
-                <h4 class="minicondensed">Atención</h4>
-                <h5 class="sub-dos">Cuidamos tu salud</h5>
-
-                 <%= image_tag ("/assets/002.png"), :class=> "iconsell"%>
-
-                <p>Acceso a consultas médicas ilimitadas de atención primaria en la comodidad de tu casa, justo como si fueras al consultorio.</p>
-
-
-              </div>
-               <div class="col-lg-4 mobilepadding">
-
-                <h4 class="minicondensed">Canalización</h4>
-                <h5 class="sub-dos">No te dejamos solo</h5>
-
-                 <%= image_tag ("/assets/003.png"), :class=> "iconsell"%>
-
-                <p>En caso de tener que ser canalizado podrá ser con alguno de nuestros médicos y centros de salud verificados para garantizarte la mejor atención.</p>
-
-
-              </div>
-            </div>
-            </div>
-          </div> 
-
-
-
-
-
-
-          <div class="jumbotron greyhard precio">
-            <div class="container"> 
-                <div class="row ">
-                    <div class="col-lg-8">
-                      </br><h1 class="white padding30 interlineado">Obtén el servicio <b>por sólo: </b></h1>
-                    </div>
-                    <div class="col-lg-4 pinkback preciorosa padding30 ">
-                      <div class="condensedhigh lhcondensed"></br></br>$299 </div>
-                      <div class="condensedlow">mensuales</div>
-                      <b>Suscripción individual. </b>
-                      Todos los serivicios incluídos.</br></br>
-                    </div>
-
-
-                  
-                </div>
-
-            </div>
-          </div>
 
 
 
@@ -446,34 +374,6 @@
               </div>
             </div>
           </div>
-
-
-
-    <!-- Modal -->
-    <div class="modal fade " id="myModalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modalvideo">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel"><%= image_tag("/assets/012.png") %></h4>
-          </div>
-          <div class="modal-body text-center videowrapper">
-           <iframe width="560" height="315" src="//www.youtube.com/embed/7SHW2nCpsb0" frameborder="0" allowfullscreen></iframe>
-          
-          </div>
-          
-                
-
-          <div class="modal-footer">
-           
-
-          </div>
-          
-
-        </div><!-- /.modal-content -->
-
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
 
 
