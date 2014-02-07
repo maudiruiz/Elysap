@@ -59,8 +59,18 @@
              
                 <%= link_to image_tag("/assets/012.png"), root_path %>
 
-                </li> 
+
               </div>
+                <div class="col-md-4 col-md-offset-4 hidden-xs">
+                             <div class="col-md-3 col-md-offset-9" style="margin-top:-10px;">
+              
+<div class="fb-like"  data-href="https://www.facebook.com/saludelysa" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div>
+<!-- <div style="padding-right:30px;"> 
+<a href="https://twitter.com/elysasalud" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @Elysasalud</a>
+</div> -->
+</div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -278,3 +288,14 @@ UserVoice.push(['identify', {
 UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
 UserVoice.push(['autoprompt', {}]);
 </script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=641238789248929";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
