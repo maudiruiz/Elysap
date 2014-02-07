@@ -21,7 +21,7 @@ class User < ActiveRecord::Base
 	                         gender:auth.extra.raw_info.gender,
 	                         birthday:auth.info.birthday,
 	                         hash_fb: auth.to_json,
-				 email:auth.info.email,
+				 			 email:auth.info.email,
 	                         password:Devise.friendly_token[0,20]
 	                         )
 	  end
