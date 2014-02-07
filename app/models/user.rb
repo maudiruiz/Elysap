@@ -15,11 +15,11 @@ class User < ActiveRecord::Base
 	  user = User.where(:provider => auth.provider, :uid => auth.uid).first
 	  unless user
 	  	# logger.info auth
-	    user = User.create(name:auth.info.first_name,
+	    user = User.create(name:"pepito",
 	                         provider:auth.provider,
 	                         uid:auth.uid,
-	                         gender:auth.extra.raw_info.gender,
-	                         birthday:auth.extra.raw_info.birthday,
+	                         # gender:auth.extra.raw_info.gender,
+	                         # birthday:auth.extra.raw_info.birthday,
 	                         email:auth.info.email,
 	                         password:Devise.friendly_token[0,20]
 	                         )
