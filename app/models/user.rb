@@ -14,8 +14,8 @@ class User < ActiveRecord::Base
 	  def self.find_for_facebook_oauth(auth, signed_in_resource=nil)
 	  user = User.where(:provider => auth.provider, :uid => auth.uid).first
 	  unless user
-	  	raise auth.to_YAML
-	    user = User.create(name:auth.extra.raw_info.first_name,
+	  	# logger.info auth
+	    user = User.create(name:auth.info.first_name,
 	                         provider:auth.provider,
 	                         uid:auth.uid,
 	                         gender:auth.extra.raw_info.gender,
