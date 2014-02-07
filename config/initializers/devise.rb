@@ -6,7 +6,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   config.secret_key = '511e9a0eb9967fa09f2bf2a32fc761d1773288dcd6746628c76519b841b1e018a08610760c9f7dfa5d786eff0dd417192c3e80e6117e5abd60b455b43bdbee08'
   require "omniauth-facebook"
-  config.omniauth :facebook, "641238789248929", "fef95cd1a39992b99d7db63b691e3789",:scope => 'email,user_birthday,read_stream,publish_stream,publish_actions,read_friendlists,user_relationships,user_work_history,user_activities', :display => 'popup'
+  config.omniauth :facebook, "641238789248929", "fef95cd1a39992b99d7db63b691e3789",:scope => 'email,user_birthday,read_stream,publish_stream,publish_actions,read_friendlists,user_relationships,user_work_history', :display => 'popup'
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
